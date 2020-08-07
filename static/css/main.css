@@ -1,0 +1,51 @@
+/* NAVBAR START */
+
+#img-logo {
+    width: 12rem;
+}
+
+.top-iconsc > i {
+    color: #597718 !important;
+}
+
+.top-iconsp {
+    font-size: 10px !important;
+    color: #597718 !important;
+}
+
+.top-iconsp-mobile {
+    font-size: 14px !important;
+    color: #597718 !important;
+}
+
+.nav-link a:link {
+    color: #90A74C !important;
+}
+
+.nav-item a:hover {
+    font-weight: 600 !important;
+    color: #597718 !important;
+}
+/* NAVBAR END */ 
+
+
+.main-banner {
+    background-color: #cf9d45;
+    color: #ffffff !important;
+}
+
+
+.bg-pasta {
+    background: url('/media/pasta.jpg') no-repeat center center fixed;
+    background-size: fit;
+    height: 30rem;
+    opacity: 0.8;
+    color: #FFFFFF !important;
+}
+
+
+@media (min-width: 992px) {
+
+
+    
+}

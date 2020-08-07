@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  padding: 0;
+  min-height:100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #FFFFFF;
+  /* background-color: #F8FAFF; */
+}
+
+h1, h2, h3, h4, h5, h6, ul, li, p, a, button {
+  font-family: 'Montserrat', sans-serif !important;
+}
+
+a:link {
+    text-decoration: none;
+}
+  
+a:visited {
+  text-decoration: none;
+}
+  
+a:hover {
+  text-decoration: none;
+}
+  
+a:active {
+  text-decoration: none;
+}
