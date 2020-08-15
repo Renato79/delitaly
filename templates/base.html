@@ -41,10 +41,11 @@
 
 <body>
     <header class="container-fluid">
+
         <div id="topnav" class="row bg-white pt-lg-2 d-none d-lg-flex">
             <div class="col-12 col-lg-4 my-auto py-1 py-lg-0 text-center text-lg-left">
                 <a href="{% url 'home' %}" class="nav-link main-logo-link">
-                    <img id="img-logo" src="media/delitaly.png" alt="delitaly logo" />
+                    <img id="img-logo" src="/media/delitaly.png" alt="delitaly logo" />
                 </a>
             </div>
             <div class="col-12 col-lg-4 my-auto py-1 py-lg-0">
@@ -78,7 +79,7 @@
                         <div class="dropdown-menu border-0" aria-labelledby="user-options">
                             {% if request.user.is_authenticated %}
                             {% if request.user.is_superuser %}
-                            <a href="" class="dropdown-item">Product Management</a>
+                            <a href="" class="dropdown-item">Your Products</a>
                             {% endif %}
                             <a href="" class="dropdown-item">My Profile</a>
                             <a href="{% url 'account_logout' %}" class="dropdown-item">Logout</a>
@@ -89,14 +90,14 @@
                         </div>
                     </li>
                     <li class="list-inline-item">
-                        <a class="{% if grand_total %}text-info font-weight-bold{% else %}text-black{% endif %} nav-link" href="">
+                        <a class="{% if grand_total %}text-info font-weight-bold{% else %}text-dark{% endif %} nav-link" href="">
                             <div class="text-center">
                                 <div class="top-iconsc"><i class="fas fa-shopping-basket fa-lg"></i></div>
                                 <p class="my-0 top-iconsp">
                                     {% if grand_total %}
                                     ${{ grand_total|floatformat:2 }}
                                     {% else %}
-                                    $0.00
+                                    €0.00
                                     {% endif %}
                                 </p>
                             </div>
@@ -129,12 +130,10 @@
         </div>
     </header>
 
-
     {% if messages %}
     <!--
     <div class="message-container"></div>
     -->
-
     {% endif %}
 
     {% block page_header %}

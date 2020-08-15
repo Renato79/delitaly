@@ -1,0 +1,78 @@
+[{
+    "pk": 1,
+    "model": "products.category",
+    "fields": {
+        "name": "pasta",
+        "friendly_name": "Pasta"
+    }
+}, {
+    "pk": 2,
+    "model": "products.category",
+    "fields": {
+        "name": "olive_oil",
+        "friendly_name": "Olive Oil"
+    }
+}, {
+    "pk": 3,
+    "model": "products.category",
+    "fields": {
+        "name": "tomatoes",
+        "friendly_name": "Tomatoes"
+    }
+}, {
+    "pk": 4,
+    "model": "products.category",
+    "fields": {
+        "name": "deli_meats",
+        "friendly_name": "Deli Meats"
+    }
+}, {
+    "pk": 5,
+    "model": "products.category",
+    "fields": {
+        "name": "cheese",
+        "friendly_name": "Cheese"
+    }
+}, {
+    "pk": 6,
+    "model": "products.category",
+    "fields": {
+        "name": "snacks",
+        "friendly_name": "Snacks"
+    }
+}, {
+    "pk": 7,
+    "model": "products.category",
+    "fields": {
+        "name": "sweets",
+        "friendly_name": "Sweets"
+    }
+}, {
+    "pk": 8,
+    "model": "products.category",
+    "fields": {
+        "name": "red_whine",
+        "friendly_name": "Red Whine"
+    }
+}, {
+    "pk": 9,
+    "model": "products.category",
+    "fields": {
+        "name": "white_wine",
+        "friendly_name": "White Wine"
+    }
+}, {
+    "pk": 10,
+    "model": "products.category",
+    "fields": {
+        "name": "buffalo",
+        "friendly_name": "Buffalo Mozzarella"
+    }
+}, {
+    "pk": 11,
+    "model": "products.category",
+    "fields": {
+        "name": "starters",
+        "friendly_name": "Starters"
+    }
+}]

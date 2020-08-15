@@ -1,0 +1,28 @@
+[{
+    "pk": 1,
+    "model": "products.product",
+    "fields": {
+        "name": "Rigatoni De Cecco 500gr",
+        "brand": "De Cecco",
+        "description": "Shaped through Bronze Dies to create a rough surface to better retain sauce, Slowly Dried at low Temperature to Preserve Nutritional Properties. GMO Free. Kosher. Made in Italy.",
+        "price": 1.75,
+        "category": 1,
+        "rating": 4.6,
+        "image_url": "https://www.ocado.com/productImages/404/404667011_0_640x640.jpg",
+        "image": "rigatoni_dececcp.jpg"
+    }
+
+}, {
+    "pk": 2,
+    "model": "products.product",
+    "fields": {
+        "name": "Spaghetti De Cecco 500gr",
+        "brand": "De Cecco",
+        "description": "Good source of protein, thiamin, folic acid, iron, riboflavin, and niacin. No GMO, no trans fat, no saturated fat, no sugar added. Kosher. Cooking time: 12 min - Al dente: 10 min. Made in Italy",
+        "price": 2.10,
+        "category": 1,
+        "rating": 5.0,
+        "image_url": "https://images-na.ssl-images-amazon.com/images/I/6148pU-bkEL._SY550_.jpg",
+        "image": "spaghetti_dececco.jpg"
+    }
+}]
