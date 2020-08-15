@@ -1,51 +1,89 @@
-/* NAVBAR START */
-
-#img-logo {
-    width: 12rem;
-}
-
-.top-iconsc > i {
-    color: #597718 !important;
-}
-
-.top-iconsp {
-    font-size: 10px !important;
-    color: #597718 !important;
-}
-
-.top-iconsp-mobile {
-    font-size: 14px !important;
-    color: #597718 !important;
-}
-
-.nav-link a:link {
+a.text-link:link {
     color: #90A74C !important;
 }
 
-.nav-item a:hover {
+a.text-link:hover {
     font-weight: 600 !important;
     color: #597718 !important;
 }
-/* NAVBAR END */ 
 
-
-.main-banner {
-    background-color: #cf9d45;
-    color: #ffffff !important;
+a.main-buttons:link {
+    background-color: none;
+    width: 40%;
+    color: #597718;
+    padding: 10px 25px;
+    margin: 0 20px;
+    border: 1px solid #597718;
+    border-radius: 5px;
+    text-align: center;
+    display: inline-block;
+    font-size: 1rem;
 }
 
 
-.bg-pasta {
-    background: url('/media/pasta.jpg') no-repeat center center fixed;
-    background-size: fit;
-    height: 30rem;
-    opacity: 0.8;
-    color: #FFFFFF !important;
+a.main-buttons:hover {
+    background-color: #37490f !important;
+    color: #FFFFFF;
+    transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+  }
+
+
+/* Contact us */
+
+h1.contact-header {
+    border-style: none none solid none;
+    border-width: 2px;
+    border-color: #343a40;
 }
+
+.envelop-sent i {
+    font-size: 56px;
+}
+
+
+.push, button.push:target {
+    background-color: #597718;
+    border: #597718;
+}
+
+button.push:hover, button.push:active, button.push:focus {
+    background-color: #37490f !important;
+    border: #597718 !important;
+    transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+}
+
+/* Footer */
+
+footer {
+    margin-top: auto !important;
+    font-size: 10px;
+}
+
+.payment-icons {
+    font-size: 16px;
+}
+
+
+.margin-tofill {
+    margin-bottom: 300px;
+}
+
+
+footer {
+    margin-top: auto !important;
+    font-size: 10px;
+  }
 
 
 @media (min-width: 992px) {
-
-
+    footer {
+        font-size: small;
+    }
     
+
+    .payment-icons {
+        font-size: 24px;
+    }
 }

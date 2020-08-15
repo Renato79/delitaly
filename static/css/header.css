@@ -1,0 +1,42 @@
+/* NAVBAR START */
+
+#img-logo {
+    width: 12rem;
+}
+
+.top-iconsc > i {
+    color: #597718 !important;
+}
+
+.top-iconsp {
+    font-size: 10px !important;
+    color: #597718 !important;
+}
+
+.top-iconsp-mobile {
+    font-size: 12px !important;
+    color: #597718 !important;
+}
+
+.nav-link a:link {
+    color: #90A74C !important;
+}
+
+.nav-item a:hover {
+    font-weight: 600 !important;
+    color: #597718 !important;
+}
+/* NAVBAR END */ 
+
+
+.main-banner {
+    background-color: #cf9d45;
+    color: #ffffff !important;
+}
+
+.social-topicons {
+    position: absolute;
+    align-items: center;
+    right: 20px;
+    border: none;
+}

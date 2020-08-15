@@ -2,41 +2,44 @@
 
 <!doctype html>
 <html lang="en">
-  <head>
-    
+
+<head>
+
     {% block meta %}
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     {% endblock %}
 
     {% block extra_meta %}
     {% endblock %}
 
     {% block corecss %}
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="{% static 'css/rules.css' %}">
-        <link rel="stylesheet" type="text/css" href="{% static 'css/main.css' %}">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/header.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/main.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/rules.css' %}">
     {% endblock %}
 
     {% block extra_css %}
     {% endblock %}
 
     {% block corejs %}
-        <script src="https://kit.fontawesome.com/74df30c221.js" crossorigin="anonymous"></script>
-        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/74df30c221.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
     {% endblock %}
 
     {% block extra_js %}
     {% endblock %}
 
     <title>Delitaly {% block extra_title %} {% endblock %}</title>
-  </head>
-  <body>
+</head>
+
+<body>
     <header class="container-fluid">
         <div id="topnav" class="row bg-white pt-lg-2 d-none d-lg-flex">
             <div class="col-12 col-lg-4 my-auto py-1 py-lg-0 text-center text-lg-left">
@@ -45,6 +48,7 @@
                 </a>
             </div>
             <div class="col-12 col-lg-4 my-auto py-1 py-lg-0">
+                <!-- Search Bar-->
                 <form method="GET" action="">
                     <div class="input-group w-100">
                         <input class="form-control" type="text" name="q" placeholder="Search our site">
@@ -63,32 +67,36 @@
                     <li class="list-inline-item dropdown">
                         <a class="text-black nav-link" href="#" id="user-options" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             <div class="text-center">
-                                <div class="top-iconsc"><i class="fas fa-user fa-lg"></i></div>
-                                <p class="my-0 top-iconsp">My Account</p>
+                                <div class="top-iconsc">
+                                    <i class="fas fa-user fa-lg"></i>
+                                </div>
+                                <p class="my-0 top-iconsp">
+                                    My Account
+                                </p>
                             </div>
                         </a>
                         <div class="dropdown-menu border-0" aria-labelledby="user-options">
                             {% if request.user.is_authenticated %}
-                                {% if request.user.is_superuser %}
-                                    <a href="" class="dropdown-item">Product Management</a>
-                                {% endif %}
-                                <a href="" class="dropdown-item">My Profile</a>
-                                <a href="{% url 'account_logout' %}" class="dropdown-item">Logout</a>
+                            {% if request.user.is_superuser %}
+                            <a href="" class="dropdown-item">Product Management</a>
+                            {% endif %}
+                            <a href="" class="dropdown-item">My Profile</a>
+                            <a href="{% url 'account_logout' %}" class="dropdown-item">Logout</a>
                             {% else %}
-                                <a href="{% url 'account_signup' %}" class="dropdown-item">Register</a>
-                                <a href="{% url 'account_login' %}" class="dropdown-item">Login</a>
+                            <a href="{% url 'account_signup' %}" class="dropdown-item">Register</a>
+                            <a href="{% url 'account_login' %}" class="dropdown-item">Login</a>
                             {% endif %}
                         </div>
                     </li>
                     <li class="list-inline-item">
                         <a class="{% if grand_total %}text-info font-weight-bold{% else %}text-black{% endif %} nav-link" href="">
                             <div class="text-center">
-                                <div class="top-iconsc"><i class="fas fa-shopping-bag fa-lg"></i></div>
+                                <div class="top-iconsc"><i class="fas fa-shopping-basket fa-lg"></i></div>
                                 <p class="my-0 top-iconsp">
                                     {% if grand_total %}
-                                        ${{ grand_total|floatformat:2 }}
+                                    ${{ grand_total|floatformat:2 }}
                                     {% else %}
-                                        $0.00
+                                    $0.00
                                     {% endif %}
                                 </p>
                             </div>
@@ -105,17 +113,28 @@
                 {% include 'includes/mobile-top-header.html' %}
                 {% include 'includes/main-nav.html' %}
             </nav>
-        </div> 
-
-
-        <div class="row text-center bg-dark">
-            <div class="col-12 text-white"><h6 class="my-1">Free delivery on orders over € 40{{ free_shipping_threshold }}!</h6></div>
         </div>
 
+        <div class="row text-center bg-dark">
+            <div class="col-12">
+                <h6 class="my-1 text-white">Free delivery on orders over € 60{{ free_shipping_threshold }}!</h6>
+            </div>
+            <div class="social-topicons d-none d-md-flex">
+                <a href="#" class="text-white"><i class="fab fa-facebook-f mr-2 align-middle"></i></a>
+                <a href="#" class="text-white"><i class="fab fa-instagram mx-2 align-middle"></i></a>
+                <a href="#" class="text-white"><i class="fab fa-whatsapp mx-2 align-middle"></i></a>
+                <a href="#" class="text-white"><i class="far fa-envelope mx-2 align-middle"></i></a>
+                <a href=“/contactus” class="text-white"><i class="fas fa-map-marker-alt align-middle ml-2"></i></a>
+            </div>
+        </div>
     </header>
 
+
     {% if messages %}
-        <div class="message-container"></div>
+    <!--
+    <div class="message-container"></div>
+    -->
+
     {% endif %}
 
     {% block page_header %}
@@ -127,9 +146,54 @@
     {% block postloadjs %}
     {% endblock %}
 
-    <footer class="bg-dark mt-auto">
-        <p>Footer</p>
+    <footer class="bg-dark mt-5 text-white">
+        <div class="d-flex flex-wrap justify-content-around p-5">
+            <div class="p-2 mb-5 mb-sm-0">
+                <h6 class="pb-3">Information</h6>
+                <p><i class="fas fa-shipping-fast mr-2"></i>Shipping Info</p>
+                <p><i class="fas fa-user-shield mr-2"></i>Privacy Policy</p>
+                <p><i class="fas fa-users mr-2"></i>Join Our Team</p>
+                <p><i class="fas fa-cheese mr-2"></i>Suggest a Product</p>
+                <p><i class="far fa-credit-card mr-2 mt-3"></i>Payment Methods</p>
+                <div class="d-flex payment-icons">
+                    <i class="fab fa-cc-amex mx-2"></i>
+                    <i class="fab fa-cc-visa mx-2"></i>
+                    <i class="fab fa-cc-mastercard mx-2"></i>
+                    <i class="fab fa-cc-paypal mx-2"></i>
+                </div>
+            </div>
+            <div class="p-2">
+                <h6 class="pb-3">Profile</h6>
+                <p><i class="fas fa-user mr-2"></i>My Account</p>
+                <p><i class="fas fa-sign-in-alt mr-2"></i>Login</p>
+                <p><i class="fas fa-shopping-basket mr-2"></i>My Basket</p>
+                <p><i class="fas fa-shopping-cart mr-2"></i>Checkout</p>
+
+            </div>
+            <div class="p-2">
+                <h6 class="pb-3">Contact Info</h6>
+                <p><i class="fas fa-phone-alt mr-2"></i><i class="fab fa-whatsapp ml-1 mr-2"></i>+353 (021) 432 2357</p>
+                <p><i class="far fa-envelope mr-2"></i>info@delitaly.ie</p>
+                <p><i class="fas fa-map-marker-alt mr-2"></i>5 Marlboro Street</p>
+                <p><i class="fas fa-city mr-2"></i>Cork, Co. Cork</p>
+                <p><i class="far fa-flag mr-2"></i>Ireland</p>
+                <p>
+                    <a href="#" class="text-white"><i class="fab fa-facebook-f mr-2"></i></a>
+                    <a href="#" class="text-white"><i class="fab fa-instagram mr-2"></i></a>
+                    Follow us
+                </p>
+            </div>
+            <div class="p-5 d-sm-none">
+                <p></p>
+                <p></p>
+            </div>
+        </div>
+        <div class="text-center">
+            <p>Copyright © 2020 Delitaly. All Rights Reserved.</p>
+            <p>Powered by webapp.ie</p>
+        </div>
     </footer>
-    
-  </body>
+
+</body>
+
 </html>

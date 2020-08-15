@@ -1,0 +1,72 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block page_header %}
+
+
+
+{% endblock %}
+
+{% block content %}
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.4.1/dist/email.min.js"></script>
+<script type="text/javascript">
+    (function(){
+       emailjs.init('user_FJR1sX3XachpsqYPlZmbB');
+    })();
+</script>
+<script type="text/javascript">
+    window.onload = function() {
+        document.getElementById('contact-form').addEventListener('submit', function(event) {
+            event.preventDefault();
+            // generate the contact number value
+            this.contact_number.value = Math.random() * 100000 | 0;
+            emailjs.sendForm('contact_service', 'contact_form', this)
+            .then(function(response) {
+               window.location.href = "#";
+            }, function(error) {
+               alert('Sorry there was a problem. Please try again.');
+            });
+        });
+    }
+</script>
+
+
+
+    <div class="col-12 col-sm-10 col-lg-8 col-xl-6">
+        <h1 class="m-5 contact-header">Contact Us:</h1>
+
+        <p class="mx-5">Thank you very much for your contact. You will receive an answer as soon as possible.</p>
+
+        <form class="needs-validation m-5" id="contact-form">
+            <input type="hidden" name="contact_number">
+            <div class="form-group">
+                <label for="name">Your name</label>
+                <input type="text" class="form-control" id="name" name="user_name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email address</label>
+                <input type="email" class="form-control" id="email" name="user_email" aria-describedby="emailHelp required">
+                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+            <div class="form-group">
+                <label for="reason">Reason</label>
+                <select class="form-control" id="reason" name="user_reason">
+                  <option>General enquiry</option>
+                  <option>Join our team</option>
+                  <option>Order enquiry</option>
+                  <option>Complaint</option>
+                  <option>Suggest a product</option>
+                  <option>Website issue</option>
+                </select>
+              </div>
+            <div class="mb-3">
+                <label for="message">Your message</label>
+                <textarea class="form-control" id="message" name="message" rows="6" required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary push">Submit</button>
+        </form>
+    </div>
+
+
+{% endblock %}

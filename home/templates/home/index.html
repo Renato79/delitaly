@@ -3,17 +3,182 @@
 
 
 {% block page_header %}
-<!--
-    <div class="container header-container">
-        <div class="row">
-            <div class="col"></div>
+<!-- Header with BRANDS -->
+<div class="container-fluid">
+    <div class="row bg-white text-center p-4">
+        <div class="col-2">
+            <img src="media/logo/garofalo.png" class="img-fluid" alt="garofalo" width="100" height="auto" />
+        </div>
+        <div class="col-2">
+            <img src="media/logo/bertolli.png" class="img-fluid" alt="garofalo" width="100" height="auto" />
+        </div>
+        <div class="col-2">
+            <img src="media/logo/mulinobianco.png" class="img-fluid" alt="garofalo" width="100" height="auto" />
+        </div>
+        <div class="col-2">
+            <img src="media/logo/paneangeli.png" class="img-fluid" alt="garofalo" width="100" height="auto" />
+        </div>
+        <div class="col-2">
+            <img src="media/logo/star.png" class="img-fluid" alt="garofalo" width="100" height="auto" />
+        </div>
+        <div class="col-2">
+            <img src="media/logo/yoga.jpg" class="img-fluid" alt="garofalo" width="100" height="auto" />
         </div>
     </div>
--->
+</div>
 {% endblock %}
 
 {% block content %}
+<!-- Container Body -->
+<div class="container header-container mt-5">
+    <div class="row">
+
+        <!-- Main section - Left - Food and Wines-->
+        <div class="col-12 col-xl-6">
+
+            <!-- Speciality -->
+            <div class="row mt-3">
+                <div class="col-12 text-center">
+                    <img src="media/mozzarella.jpg" class="img-fluid" alt="mozzarella" width="350" height="auto" />
+                </div>
+                <div class="col-12 mt-4">
+                    <h4>Delitaly</h4>
+                    <h5><i>Passionate about Italian food&wine</i></h5>
+                    <p> Our specialties and all our products are the result of a long tradition. We import the best
+                        products of the Italian tradition so that you can have the most genuine and high quality products. 
+                        Take a look at our section <a href="templates/speciality.html" class="text-link"><i>Speciality</i></a> 
+                        to find fresh products, and savor the true Italian tradition brought directly to your home.</p>
+                </div>
+            </div>
+
+            <div class="row mt-3">
+                <div class="col-12 mb-5 text-center">
+                    <a class="main-buttons" href="templates/specility.html">Speciality</a>
+                </div>
+            </div>
+
+            <!-- Pasta Set -->
+            <div class="row">
+                <div class="col-12 text-center">
+                    <img src="media/pastaset.jpg" class="img-fluid" alt="pasta set" width="auto" height="288" />
+                </div>
+
+                <div class="col-12">
+                    <h4>Pasta Set</h4>
+                    <h5><i>header for pasta set</i></h5>
+                    <p>These 10kg pasta sets comprise a wide variety of pasta types and various ingredients that are 
+                        often used in mediterranean cuisine</p>
+                </div>
+            </div>
+
+            <div class="row mt-3">
+                <div class="col-12 mb-5 text-center">
+                    <a class="main-buttons" href="templates/pastasets.html">Pasta Set</a>
+                </div>
+            </div>
+
+            <!-- Olive Oil -->
+            <div class="row">
+                <div class="col-12 text-center my-4">
+                    <img src="media/oliveoil.png" class="img-fluid" alt="pasta set" width="400" height="auto" />
+                </div>
+
+                <div class="col-12">
+                    <h4>Taste real olive oil</h4>
+                    <h5><i>header for olive oil</i></h5>
+                    <p>These 10kg pasta sets comprise a wide variety of pasta types and various ingredients that are 
+                        often used in mediterranean cuisine</p>
+                </div>
+            </div>
+
+            <div class="row mt-3">
+                <div class="col-12 mb-5 text-center">
+                    <a class="main-buttons" href="templates/pastasets.html">Pasta Set</a>
+                </div>
+            </div>
+
+        </div>
 
 
 
+
+        
+        <!-- Main section - Right - Services -->
+        <div class="col-12 col-xl-6">
+
+            <!-- Wines -->
+            <div class="row mt-4">
+                <div class="col-12 text-center">
+                    <img src="media/wines.png" class="img-fluid" alt="wines" width="auto" height="288" />
+                </div>
+
+                <div class="col-12">
+                    <h4>Our wines</h4>
+                    <h5><i>Italian wine just with a click</i></h5>
+                    <p>Our wines are carefully selected, to ensure that each bottle, whether white or red, is among the
+                        best wines. You will have the opportunity to choose an intense red wine to accompany excellent
+                        meat, or white wine to accompany excellent fish.
+                        You can choose from the best wines of the Italian tradition. Visit our 
+                        <a href="templates/wines.html" class="text-link"><i>Wines</i></a> in the shop!</p>
+                </div>
+            </div>
+
+            <div class="row mt-3">
+                <div class="col-12 mb-5 text-center">
+                    <a class="main-buttons" href="templates/wines.html">Wines</a>
+                </div>
+            </div>
+
+
+            <!-- Deli Meats -->
+            <div class="row mt-4">
+                <div class="col-12 text-center mt-4 mb-5">
+                    <img src="media/deli.png" class="img-fluid" alt="Deli Meats" width="auto" height="288" />
+                </div>
+
+                <div class="col-12 ">
+                    <h4>Deli meats</h4>
+                    <h5><i>The Italian tradition at home</i></h5>
+                    <p>Our wines are carefully selected, to ensure that each bottle, whether white or red, is among the
+                        best wines. You will have the opportunity to choose an intense red wine to accompany excellent
+                        meat, or white wine to accompany excellent fish.
+                        You can choose from the best wines of the Italian tradition. Visit our 
+                        <a class="text-link" href="templates/delimeats.html"><i>Deli meats</i></a> in the shop!</p>
+                </div>
+            </div>
+
+            <div class="row mt-3">
+                <div class="col-12 mb-5 text-center">
+                    <a class="main-buttons" href="templates/delimeats.html">Deli meats</a>
+                </div>
+            </div>
+
+            <!-- Collect in the shop -->
+            <div class="row mt-4">
+                <div class="col-12 text-center my-4">
+                    <img src="media/bag.png" class="img-fluid" alt="Deli Meats" width="300" height="auto" />
+                </div>
+
+                <div class="col-12 ">
+                    <h4>Pickup in store</h4>
+                    <h5><i>You order, we fill your bags, collect at any time</i></h5>
+                    <p>Our wines are carefully selected, to ensure that each bottle, whether white or red, is among the
+                        best wines. You will have the opportunity to choose an intense red wine to accompany excellent
+                        meat, or white wine to accompany excellent fish.
+                        You can choose from the best wines of the Italian tradition. Visit our 
+                        <a class="text-link" href="templates/delimeats.html"><i>Deli meats</i></a> in the shop!</p>
+                </div>
+            </div>
+
+            <div class="row mt-3">
+                <div class="col-12 mb-5 text-center">
+                    <a class="main-buttons" href="templates/delimeats.html">Shop Now</a>
+                </div>
+            </div>
+        </div>        
+
+
+
+    </div>
+</div>
 {% endblock %}
