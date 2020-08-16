@@ -4,25 +4,1012 @@
     "fields": {
         "name": "Rigatoni De Cecco 500gr",
         "brand": "De Cecco",
-        "description": "Shaped through Bronze Dies to create a rough surface to better retain sauce, Slowly Dried at low Temperature to Preserve Nutritional Properties. GMO Free. Kosher. Made in Italy.",
+        "description": "First-class ingredients, original combinations and an unmistakable pasta. The wide range of De Cecco special pastas covers the requirements of the most demanding consumers who are looking for top quality products filled with flavour, fragrance and imagination.",
         "price": 1.75,
         "category": 1,
         "rating": 4.6,
         "image_url": "https://www.ocado.com/productImages/404/404667011_0_640x640.jpg",
-        "image": "rigatoni_dececcp.jpg"
+        "image": "rigatoni_dc.jpg"
     }
-
 }, {
     "pk": 2,
     "model": "products.product",
     "fields": {
         "name": "Spaghetti De Cecco 500gr",
         "brand": "De Cecco",
-        "description": "Good source of protein, thiamin, folic acid, iron, riboflavin, and niacin. No GMO, no trans fat, no saturated fat, no sugar added. Kosher. Cooking time: 12 min - Al dente: 10 min. Made in Italy",
+        "description": "First-class ingredients, original combinations and an unmistakable pasta. The wide range of De Cecco special pastas covers the requirements of the most demanding consumers who are looking for top quality products filled with flavour, fragrance and imagination.",
         "price": 2.10,
         "category": 1,
         "rating": 5.0,
         "image_url": "https://images-na.ssl-images-amazon.com/images/I/6148pU-bkEL._SY550_.jpg",
-        "image": "spaghetti_dececco.jpg"
+        "image": "spaghetti_dc.jpg"
+    }
+}, {
+    "pk": 3,
+    "model": "products.product",
+    "fields": {
+        "name": "Casareccia De Cecco 500gr",
+        "brand": "De Cecco",
+        "description": "First-class ingredients, original combinations and an unmistakable pasta. The wide range of De Cecco special pastas covers the requirements of the most demanding consumers who are looking for top quality products filled with flavour, fragrance and imagination.",
+        "price": 2.30,
+        "category": 1,
+        "rating": 4.4,
+        "image_url": "https://cdn.shopify.com/s/files/1/1630/6579/products/image_4960467c-ad95-4792-840f-965f1881f96a_800x.jpg",
+        "image": "casareccia_dc.jpg"
+    }
+}, {
+    "pk": 4,
+    "model": "products.product",
+    "fields": {
+        "name": "Conchiglie De Cecco 500gr",
+        "brand": "De Cecco",
+        "description": "First-class ingredients, original combinations and an unmistakable pasta. The wide range of De Cecco special pastas covers the requirements of the most demanding consumers who are looking for top quality products filled with flavour, fragrance and imagination.",
+        "price": 2.10,
+        "category": 1,
+        "rating": 5.0,
+        "image_url": "https://digitalcontent.api.tesco.com/v2/media/ghs/21191ad1-c9c9-48bc-80e6-94861a4169fa/snapshotimagehandler_444266693.jpeg?h=540&w=540",
+        "image": "conchiglie_dc.jpg"
+    }
+}, {
+    "pk": 5,
+    "model": "products.product",
+    "fields": {
+        "name": "Fusilli De Cecco 500gr",
+        "brand": "De Cecco",
+        "description": "First-class ingredients, original combinations and an unmistakable pasta. The wide range of De Cecco special pastas covers the requirements of the most demanding consumers who are looking for top quality products filled with flavour, fragrance and imagination.",
+        "price": 1.60,
+        "category": 1,
+        "rating": 5.0,
+        "image_url": "https://digitalcontent.api.tesco.com/v2/media/ghs/0a1b27f0-16d7-4280-9a6f-576c0524a4d0/snapshotimagehandler_684619105.jpeg?h=540&w=540",
+        "image": "fusilli_dc.png"
+    }
+}, {
+    "pk": 6,
+    "model": "products.product",
+    "fields": {
+        "name": "Penne Barilla 500gr",
+        "brand": "Barilla",
+        "description": "The Barilla lineup of pasta shapes and sauces can help you make a satisfying meal in as little as 15 minutes. Putting a fresh, delicious dinner on the table each night doesn't have to be complicated.",
+        "price": 1.10,
+        "category": 1,
+        "rating": 4.0,
+        "image_url": "https://target.scene7.com/is/image/Target/GUEST_663ffed8-443b-4012-b3f2-e15f728e4152?wid=488&hei=488&fmt=pjpeg",
+        "image": "penne_bar.jpg"
+    }
+}, {
+    "pk": 7,
+    "model": "products.product",
+    "fields": {
+        "name": "Tortiglioni Barilla 500gr",
+        "brand": "Barilla",
+        "description": "The Barilla lineup of pasta shapes and sauces can help you make a satisfying meal in as little as 15 minutes. Putting a fresh, delicious dinner on the table each night doesn't have to be complicated.",
+        "price": 2.20,
+        "category": 1,
+        "rating": 3.5,
+        "image_url": "https://www.etalianfood.com/pub/media/catalog/product/cache/80d2192410dad911a8a678a81e478d2b/t/o/tortiglioni_barilla.jpg",
+        "image": "tortiglioni_bar.jpg"
+    }
+}, {
+    "pk": 8,
+    "model": "products.product",
+    "fields": {
+        "name": "Tortellini Barilla 340gr",
+        "brand": "Barilla",
+        "description": "The Barilla lineup of pasta shapes and sauces can help you make a satisfying meal in as little as 15 minutes. Putting a fresh, delicious dinner on the table each night doesn't have to be complicated.",
+        "price": 3.90,
+        "category": 1,
+        "rating": 5.0,
+        "image_url": "https://www.maxdelivery.com/nkz/gifs/60060700-R.jpg",
+        "image": "tortellini_bar.jpg"
+    }
+}, {
+    "pk": 9,
+    "model": "products.product",
+    "fields": {
+        "name": "Mostaccioli Barilla 500gr",
+        "brand": "Barilla",
+        "description": "The Barilla lineup of pasta shapes and sauces can help you make a satisfying meal in as little as 15 minutes. Putting a fresh, delicious dinner on the table each night doesn't have to be complicated.",
+        "price": 1.90,
+        "category": 1,
+        "rating": 4.2,
+        "image_url": "https://www.meijer.com/content/dam/meijer/product/0007/68/0828/07/0007680828071_2_A1C1_1200.png",
+        "image": "mostaccioli_bar.png"
+    }
+}, {
+    "pk": 10,
+    "model": "products.product",
+    "fields": {
+        "name": "Ditalini Barilla 500gr",
+        "brand": "Barilla",
+        "description": "The Barilla lineup of pasta shapes and sauces can help you make a satisfying meal in as little as 15 minutes. Putting a fresh, delicious dinner on the table each night doesn't have to be complicated.",
+        "price": 1.60,
+        "category": 1,
+        "rating": 3.9,
+        "image_url": "https://cdn3.volusion.com/no4tr.u43q3/v/vspfiles/photos/DE428136-2.jpg",
+        "image": "ditalini_bar.jpg"
+    }
+}, {
+    "pk": 11,
+    "model": "products.product",
+    "fields": {
+        "name": "Pasta Mista Garofalo 500gr",
+        "brand": "Garofalo",
+        "description": "Pasta Garofalo brings the quality of the best wheat to the table with the guarantee of PGI certification. Discover the wide range of pastas and shapes.",
+        "price": 2.00,
+        "category": 1,
+        "rating": 4.9,
+        "image_url": "https://www.etalianfood.com/pub/media/catalog/product/cache/80d2192410dad911a8a678a81e478d2b/p/a/pasta_mista_garofalo_1.jpg",
+        "image": "pastamista_gar.jpg"
+    }
+}, {
+    "pk": 12,
+    "model": "products.product",
+    "fields": {
+        "name": "Farfalle Garofalo 500gr",
+        "brand": "Garofalo",
+        "description": "Pasta Garofalo brings the quality of the best wheat to the table with the guarantee of PGI certification. Discover the wide range of pastas and shapes.",
+        "price": 2.10,
+        "category": 1,
+        "rating": 4.8,
+        "image_url": "https://www.etalianfood.com/pub/media/catalog/product/cache/80d2192410dad911a8a678a81e478d2b/f/a/farfalle_garofalo_2.jpg",
+        "image": "farfalle_gar.jpg"
+    }
+}, {
+    "pk": 13,
+    "model": "products.product",
+    "fields": {
+        "name": "Lumaconi Garofalo 500gr",
+        "brand": "Garofalo",
+        "description": "Pasta Garofalo brings the quality of the best wheat to the table with the guarantee of PGI certification. Discover the wide range of pastas and shapes.",
+        "price": 2.90,
+        "category": 1,
+        "rating": 4.7,
+        "image_url": "https://ecommerce.promoshops.it/supermercatomaddalena/7565-large_default/pasta-garofalo-lumaconi-n-48-2-500gr.jpg",
+        "image": "lumaconi_gar.jpg"
+    }
+}, {
+    "pk": 14,
+    "model": "products.product",
+    "fields": {
+        "name": "Pappardelle Garofalo 500gr",
+        "brand": "Garofalo",
+        "description": "Pasta Garofalo brings the quality of the best wheat to the table with the guarantee of PGI certification. Discover the wide range of pastas and shapes.",
+        "price": 3.40,
+        "category": 1,
+        "rating": 4.4,
+        "image_url": "https://images-na.ssl-images-amazon.com/images/I/51OZTKcydhL.jpg",
+        "image": "pappardelle_gar.jpg"
+    }
+}, {
+    "pk": 15,
+    "model": "products.product",
+    "fields": {
+        "name": "Gemelli Garofalo 500gr",
+        "brand": "Garofalo",
+        "description": "Pasta Garofalo brings the quality of the best wheat to the table with the guarantee of PGI certification. Discover the wide range of pastas and shapes.",
+        "price": 2.10,
+        "category": 1,
+        "rating": 4.5,
+        "image_url": "https://www.ocado.com/productImages/692/69259011_0_640x640.jpg",
+        "image": "gemelli_gar.jpg"
+    }
+}, {
+    "pk": 16,
+    "model": "products.product",
+    "fields": {
+        "name": "Spaghetti Ristorante Divella 500gr",
+        "brand": "Divella",
+        "description": "Our durum wheat semolina pasta is produced with durum wheat semolina grown in Italy and EU and non-EU countries ground in Italy. Tradition, experience and technology are the basic ingredients of our production that promotes a correct diet and healthy principles of Mediterranean diet throughout the world.",
+        "price": 1.30,
+        "category": 1,
+        "rating": 4.0,
+        "image_url": "https://smartshopper.tech/images/products/8/0/8005121000085.jpg",
+        "image": "spaghettiris_div.jpg"
+    }
+}, {
+    "pk": 17,
+    "model": "products.product",
+    "fields": {
+        "name": "Penne Ziti Divella 500gr",
+        "brand": "Divella",
+        "description": "Our durum wheat semolina pasta is produced with durum wheat semolina grown in Italy and EU and non-EU countries ground in Italy. Tradition, experience and technology are the basic ingredients of our production that promotes a correct diet and healthy principles of Mediterranean diet throughout the world.",
+        "price": 1.50,
+        "category": 1,
+        "rating": 4.7,
+        "image_url": "https://content.dambros.it/uploads/2017/07/26133046/0000079163-1024x1024.jpg",
+        "image": "penneziti_div.jpg"
+    }
+}, {
+    "pk": 18,
+    "model": "products.product",
+    "fields": {
+        "name": "Riccioli Divella 500gr",
+        "brand": "Divella",
+        "description": "Our durum wheat semolina pasta is produced with durum wheat semolina grown in Italy and EU and non-EU countries ground in Italy. Tradition, experience and technology are the basic ingredients of our production that promotes a correct diet and healthy principles of Mediterranean diet throughout the world.",
+        "price": 1.40,
+        "category": 1,
+        "rating": 3.9,
+        "image_url": "https://www.sugros.com/wp-content/uploads/2017/01/16775.jpg",
+        "image": "riccioli_div.jpg"
+    }
+}, {
+    "pk": 19,
+    "model": "products.product",
+    "fields": {
+        "name": "Tofe Divella 500gr",
+        "brand": "Divella",
+        "description": "Our durum wheat semolina pasta is produced with durum wheat semolina grown in Italy and EU and non-EU countries ground in Italy. Tradition, experience and technology are the basic ingredients of our production that promotes a correct diet and healthy principles of Mediterranean diet throughout the world.",
+        "price": 1.60,
+        "category": 1,
+        "rating": 3.7,
+        "image_url": "https://fleischmanns-feinkost.de/images/product_images/original_images/Divella_54_tofe_500g_600x600.png",
+        "image": "tofe_div.png"
+    }
+}, {
+    "pk": 20,
+    "model": "products.product",
+    "fields": {
+        "name": "Gramigna Divella 500gr",
+        "brand": "Divella",
+        "description": "Our durum wheat semolina pasta is produced with durum wheat semolina grown in Italy and EU and non-EU countries ground in Italy. Tradition, experience and technology are the basic ingredients of our production that promotes a correct diet and healthy principles of Mediterranean diet throughout the world.",
+        "price": 1.80,
+        "category": 1,
+        "rating": 3.4,
+        "image_url": "https://www.intermarketing.it/wp-content/uploads/2018/11/gramigna-77-600x600.png",
+        "image": "gramigna_div.png"
+    }
+}, {
+    "pk": 21,
+    "model": "products.product",
+    "fields": {
+        "name": "Carapelli Olio Extra Vergine Di Oliva 1lt",
+        "brand": "Carapelli",
+        "description": "The Italians produce some of the best olive oils and extra virgin olive oils in the world. And we have hand selected a range of them right here.",
+        "price": 8.10,
+        "category": 2,
+        "rating": 4.6,
+        "image_url": "https://sc01.alicdn.com/kf/UT8GdjmXCFaXXagOFbX9.jpg_350x350.jpg",
+        "image": "carapelli.jpg"
+    }
+}, {
+    "pk": 22,
+    "model": "products.product",
+    "fields": {
+        "name": "Olio Extra Vergine di Oliva Classico Sasso",
+        "brand": "Sasso",
+        "description": "The Italians produce some of the best olive oils and extra virgin olive oils in the world. And we have hand selected a range of them right here.",
+        "price": 9.30,
+        "category": 2,
+        "rating": 5.0,
+        "image_url": "https://www.oliosasso.it/wp-content/uploads/2017/06/extra-vergine.png",
+        "image": "sasso.png"
+    }
+}, {
+    "pk": 23,
+    "model": "products.product",
+    "fields": {
+        "name": "Bertolli Gentile Olio Extravergine di Oliva 1lt",
+        "brand": "Bertolli",
+        "description": "The Italians produce some of the best olive oils and extra virgin olive oils in the world. And we have hand selected a range of them right here.",
+        "price": 9.90,
+        "category": 2,
+        "rating": 4.6,
+        "image_url": "https://www.bertolli.it/wp-content/uploads/2016/12/fragrante-1-538x1024.png",
+        "image": "bertolli.png"
+    }
+}, {
+    "pk": 24,
+    "model": "products.product",
+    "fields": {
+        "name": "Olio extra vergine di Oliva De Cecco 1 lt ",
+        "brand": "De Cecco",
+        "description": "The Italians produce some of the best olive oils and extra virgin olive oils in the world. And we have hand selected a range of them right here.",
+        "price": 10.10,
+        "category": 2,
+        "rating": 5.0,
+        "image_url": "https://www.dececco.com/wp-content/uploads/2018/05/SOL100E-CLASSICO-1.png",
+        "image": "dececco.png"
+    }
+}, {
+    "pk": 25,
+    "model": "products.product",
+    "fields": {
+        "name": "Olio Extra Vergine di oliva Pietro Coricelli 1lt",
+        "brand": "Coricelli",
+        "description": "The Italians produce some of the best olive oils and extra virgin olive oils in the world. And we have hand selected a range of them right here.",
+        "price": 8.10,
+        "category": 2,
+        "rating": 4.1,
+        "image_url": "https://rsbackend.blob.core.windows.net/product/Olio-Extra-Vergine-di-oliva-Pietro-Coricelli_8d3a71650ec4c7b.jpg",
+        "image": "coricelli.jpg"
+    }
+}, {
+    "pk": 26,
+    "model": "products.product",
+    "fields": {
+        "name": "Chianti Classico Extra Virgin Tuscan oil 0.5lt",
+        "brand": "Chianti",
+        "description": "The Italians produce some of the best olive oils and extra virgin olive oils in the world. And we have hand selected a range of them right here.",
+        "price": 7.10,
+        "category": 2,
+        "rating": 4.2,
+        "image_url": "https://oliofarchioni.com/wp-content/uploads/2019/10/dop-chianti.png",
+        "image": "chianti.png"
+    }
+}, {
+    "pk": 27,
+    "model": "products.product",
+    "fields": {
+        "name": "Olio Extravergine di Oliva Classico De Santis 1L",
+        "brand": "De Santis",
+        "description": "The Italians produce some of the best olive oils and extra virgin olive oils in the world. And we have hand selected a range of them right here.",
+        "price": 8.90,
+        "category": 2,
+        "rating": 5.0,
+        "image_url": "https://spesadoc.com/528-large_default/olio-extravergine-di-oliva-classico-de-santis-1l.jpg",
+        "image": "desantis.jpg"
+    }
+}, {
+    "pk": 28,
+    "model": "products.product",
+    "fields": {
+        "name": "Olio Extra Vergine di Oliva il Classico Sagra 1L",
+        "brand": "Sagra",
+        "description": "The Italians produce some of the best olive oils and extra virgin olive oils in the world. And we have hand selected a range of them right here.",
+        "price": 6.10,
+        "category": 2,
+        "rating": 4.0,
+        "image_url": "https://spesadoc.com/2042-thickbox_default/olio-extra-vergine-di-oliva-il-classico-sagra-1l.jpg",
+        "image": "sagra.jpg"
+    }
+}, {
+    "pk": 29,
+    "model": "products.product",
+    "fields": {
+        "name": "Olio Extra Vergine Di Oliva Monini 1lt",
+        "brand": "Monini",
+        "description": "The Italians produce some of the best olive oils and extra virgin olive oils in the world. And we have hand selected a range of them right here.",
+        "price": 10.90,
+        "category": 2,
+        "rating": 5.0,
+        "image_url": "https://www.monini.com/content/wp-content/uploads/2017/10/Artboard-Copy-33.png",
+        "image": "monini.png"
+    }
+}, {
+    "pk": 30,
+    "model": "products.product",
+    "fields": {
+        "name": "Olio Extra Vergine Di Oliva Cirio 1lt",
+        "brand": "Cirio",
+        "description": "The Italians produce some of the best olive oils and extra virgin olive oils in the world. And we have hand selected a range of them right here.",
+        "price": 8.10,
+        "category": 2,
+        "rating": 3.1,
+        "image_url": "https://images-na.ssl-images-amazon.com/images/I/61UWdB%2BEIhL._AC_SX679_.jpg",
+        "image": "cirio.jpg"
+    }
+}, {
+    "pk": 31,
+    "model": "products.product",
+    "fields": {
+        "name": "Mutti Pomodori Pelati, 100% Pomodoro Italiano 400 gr",
+        "brand": "Mutti",
+        "description": "Vegetable preserve obtained by adding a peeled tomatoes tomato juice natural partially evaporated, product obtained from healthy and ripe tomato plant Solanum lycopersicum, worked in short times in order to ensure the best conditions of hygiene and product stability. Product subjected to pasteurisation process.",
+        "price": 2.10,
+        "category": 3,
+        "rating": 4.6,
+        "image_url": "https://images-na.ssl-images-amazon.com/images/I/71ucbJILK8L._AC_SX679_.jpg",
+        "image": "mutti.jpg"
+    }
+}, {
+    "pk": 32,
+    "model": "products.product",
+    "fields": {
+        "name": "Pomodori pelati italiani Divella 800gr",
+        "brand": "Divella",
+        "description": "Vegetable preserve obtained by adding a peeled tomatoes tomato juice natural partially evaporated, product obtained from healthy and ripe tomato plant Solanum lycopersicum, worked in short times in order to ensure the best conditions of hygiene and product stability. Product subjected to pasteurisation process.",
+        "price": 3.40,
+        "category": 3,
+        "rating": 4.8,
+        "image_url": "https://www.gambardellasrl.it/7892-large_default/divellapelatigr800.jpg",
+        "image": "divella.jpg"
+    }
+}, {
+    "pk": 33,
+    "model": "products.product",
+    "fields": {
+        "name": "Pomodori Pelati Pomilia 2.5kg",
+        "brand": "Pomilia",
+        "description": "Vegetable preserve obtained by adding a peeled tomatoes tomato juice natural partially evaporated, product obtained from healthy and ripe tomato plant Solanum lycopersicum, worked in short times in order to ensure the best conditions of hygiene and product stability. Product subjected to pasteurisation process.",
+        "price": 6.10,
+        "category": 3,
+        "rating": 5.0,
+        "image_url": "https://lh3.googleusercontent.com/proxy/AJ_RCufTI_XEjEdyoWGjXfMSB0vH6ATXtL37p-PePGsoWNKXINIb4ZHp2MfAOwQvt8ua_4vWX8KWNY158eo-6z7TID2LYPkEUIuQqFucqJYsJVhiUaF8weYiRWDOnoARtOsyIiHaStvD_n9iSDH8QrokWQ",
+        "image": "pomilia.jpg"
+    }
+}, {
+    "pk": 34,
+    "model": "products.product",
+    "fields": {
+        "name": "Pomodori Pelati Fontanella 2.5kg",
+        "brand": "Fontanella",
+        "description": "Vegetable preserve obtained by adding a peeled tomatoes tomato juice natural partially evaporated, product obtained from healthy and ripe tomato plant Solanum lycopersicum, worked in short times in order to ensure the best conditions of hygiene and product stability. Product subjected to pasteurisation process.",
+        "price": 8.10,
+        "category": 3,
+        "rating": 5.0,
+        "image_url": "https://www.fontanella1957.it/ita/wp-content/uploads/2019/06/fontanella-1957-salvati-spa-shop-prodotti-pomodori-pelati-interi-2500-g-da-6-pezzi-001.png",
+        "image": "fontanella.png"
+    }
+}, {
+    "pk": 35,
+    "model": "products.product",
+    "fields": {
+        "name": "Pomodori Pelati Nobile 400gr",
+        "brand": "Nobile",
+        "description": "Vegetable preserve obtained by adding a peeled tomatoes tomato juice natural partially evaporated, product obtained from healthy and ripe tomato plant Solanum lycopersicum, worked in short times in order to ensure the best conditions of hygiene and product stability. Product subjected to pasteurisation process.",
+        "price": 2.20,
+        "category": 3,
+        "rating": 4.0,
+        "image_url": "https://www.nobileonline.com/img-products/21.jpg",
+        "image": "nobile.jpg"
+    }
+}, {
+    "pk": 36,
+    "model": "products.product",
+    "fields": {
+        "name": "Pomodori Pelati LaCarmela 400gr",
+        "brand": "LaCarmela",
+        "description": "Vegetable preserve obtained by adding a peeled tomatoes tomato juice natural partially evaporated, product obtained from healthy and ripe tomato plant Solanum lycopersicum, worked in short times in order to ensure the best conditions of hygiene and product stability. Product subjected to pasteurisation process.",
+        "price": 2.90,
+        "category": 3,
+        "rating": 4.1,
+        "image_url": "https://images-na.ssl-images-amazon.com/images/I/81d%2BGtxiH6L._AC_SX679_.jpg",
+        "image": "lacarmela.jpg"
+    }
+}, {
+    "pk": 37,
+    "model": "products.product",
+    "fields": {
+        "name": "Pomodori Pelati Cirio 400gr",
+        "brand": "Cirio",
+        "description": "Vegetable preserve obtained by adding a peeled tomatoes tomato juice natural partially evaporated, product obtained from healthy and ripe tomato plant Solanum lycopersicum, worked in short times in order to ensure the best conditions of hygiene and product stability. Product subjected to pasteurisation process.",
+        "price": 3.10,
+        "category": 3,
+        "rating": 2.9,
+        "image_url": "https://images-na.ssl-images-amazon.com/images/I/71G6stteT%2BL._AC_SX679_.jpg",
+        "image": "cirio_t.jpg"
+    }
+}, {
+    "pk": 38,
+    "model": "products.product",
+    "fields": {
+        "name": "Pomodori Pelati LaFiammante 400gr",
+        "brand": "LaFiammante",
+        "description": "Vegetable preserve obtained by adding a peeled tomatoes tomato juice natural partially evaporated, product obtained from healthy and ripe tomato plant Solanum lycopersicum, worked in short times in order to ensure the best conditions of hygiene and product stability. Product subjected to pasteurisation process.",
+        "price": 1.70,
+        "category": 3,
+        "rating": 4.9,
+        "image_url": "https://www.almafood.net/1035-large_default/la-fiammante-pelati-con-basilico-1-confezione-da-400gr.jpg",
+        "image": "lafiammante.jpg"
+    }
+}, {
+    "pk": 39,
+    "model": "products.product",
+    "fields": {
+        "name": "Pomodori Pelati Graziella 800gr",
+        "brand": "Graziella",
+        "description": "Vegetable preserve obtained by adding a peeled tomatoes tomato juice natural partially evaporated, product obtained from healthy and ripe tomato plant Solanum lycopersicum, worked in short times in order to ensure the best conditions of hygiene and product stability. Product subjected to pasteurisation process.",
+        "price": 4.10,
+        "category": 3,
+        "rating": 4.1,
+        "image_url": "https://carrefour.gospesa.it/pescara/32489-large_default/graziella-pomodori-pelati-a-mano-in-succo-di-pomodoro-800-g.jpg",
+        "image": "graziella.jpg"
+    }
+}, {
+    "pk": 40,
+    "model": "products.product",
+    "fields": {
+        "name": "Pomodori Pelati Bellacosa 400gr",
+        "brand": "Bellacosa",
+        "description": "Vegetable preserve obtained by adding a peeled tomatoes tomato juice natural partially evaporated, product obtained from healthy and ripe tomato plant Solanum lycopersicum, worked in short times in order to ensure the best conditions of hygiene and product stability. Product subjected to pasteurisation process.",
+        "price": 1.60,
+        "category": 3,
+        "rating": 4.0,
+        "image_url": "https://www.bellacosafood.com/wp-content/uploads/2019/04/pomodori-pelati-1-e1554806246467.jpg",
+        "image": "bellacosa.jpg"
+    }
+}, {
+    "pk": 41,
+    "model": "products.product",
+    "fields": {
+        "name": "Parmigiano Reggiano 24 months 1 Kg",
+        "brand": "Parmigiano Reggiano",
+        "description": "From the world-famous brands to local, artisan products with PDO and PGI certifications. All our products are high-quality.",
+        "price": 35.00,
+        "category": 5,
+        "rating": 5.0,
+        "image_url": "https://www.italianherkut.fi/751-thickbox_default/parmiggiano-reggiano-24-months-1-kg.jpg",
+        "image": "parmigiano.jpg"
+    }
+}, {
+    "pk": 42,
+    "model": "products.product",
+    "fields": {
+        "name": "Pecorino Romano PDO 12 month aged 1kg",
+        "brand": "Volpetti",
+        "description": "From the world-famous brands to local, artisan products with PDO and PGI certifications. All our products are high-quality.",
+        "price": 25.10,
+        "category": 5,
+        "rating": 4.9,
+        "image_url": "https://www.volpetti.com/wp-content/uploads/2018/04/12-pecorino-romano_001.jpg",
+        "image": "pecorino.jpg"
+    }
+}, {
+    "pk": 43,
+    "model": "products.product",
+    "fields": {
+        "name": "Provolone Piccante Cheese 10 Months Aged 1kg",
+        "brand": "Montorso",
+        "description": "From the world-famous brands to local, artisan products with PDO and PGI certifications. All our products are high-quality.",
+        "price": 24.90,
+        "category": 5,
+        "rating": 4.6,
+        "image_url": "https://www.gourmetfoodstore.com/images/Product/large/caseificio-montorso-provolone-piccante-cheese-aged-10-months-1S-2806.jpg",
+        "image": "provolone.jpg"
+    }
+}, {
+    "pk": 44,
+    "model": "products.product",
+    "fields": {
+        "name": "Prosciutto di Parma",
+        "brand": "Alma Gourmet",
+        "description": "From the world-famous brands to local, artisan products with PDO and PGI certifications. All our products are high-quality.",
+        "price": 234.90,
+        "category": 4,
+        "rating": 4.2,
+        "image_url": "https://www.almagourmet.com/store/images/red-prosciutto-di-parma-S.jpg",
+        "image": "parma.jpg"
+    }
+}, {
+    "pk": 45,
+    "model": "products.product",
+    "fields": {
+        "name": "Pancetta Steccata 4.4kg",
+        "brand": "Food Explore",
+        "description": "From the world-famous brands to local, artisan products with PDO and PGI certifications. All our products are high-quality.",
+        "price": 63.99,
+        "category": 4,
+        "rating": 4.6,
+        "image_url": "https://www.foodexplore.com/media/catalog/product/cache/2/image/800x800/9df78eab33525d08d6e5fb8d27136e95/p/a/pancetta-steccata.gif",
+        "image": "pancetta.gif"
+    }
+}, {
+    "pk": 46,
+    "model": "products.product",
+    "fields": {
+        "name": "Guanciale 1kg",
+        "brand": "Volpetti",
+        "description": "From the world-famous brands to local, artisan products with PDO and PGI certifications. All our products are high-quality.",
+        "price": 39.10,
+        "category": 4,
+        "rating": 5.0,
+        "image_url": "https://www.volpetti.com/wp-content/uploads/2018/04/39-guanciale_001.jpg",
+        "image": "guanciale.jpg"
+    }
+}, {
+    "pk": 47,
+    "model": "products.product",
+    "fields": {
+        "name": "Grissini Saltelli Valledoro 1kg",
+        "brand": "Valledoro",
+        "description": "High-Quality Italian Products. At Summer in Italy we do care about our guests, and this is why we are here, in order to help you making your food shopping in Italy just perfect.",
+        "price": 14.10,
+        "category": 6,
+        "rating": 3.8,
+        "image_url": "https://www.poloristorazione.it/media/catalog/product/cache/1/image/494x494/4c156884889960f6c4bc2b9d278d263e/0/9/09980325.jpg",
+        "image": "grissini.jpg"
+    }
+}, {
+    "pk": 48,
+    "model": "products.product",
+    "fields": {
+        "name": "Il Tarallo Molfettese all'olio d'oliva",
+        "brand": "Delizie Italia",
+        "description": "High-Quality Italian Products. At Summer in Italy we do care about our guests, and this is why we are here, in order to help you making your food shopping in Italy just perfect.",
+        "price": 4.10,
+        "category": 6,
+        "rating": 4.7,
+        "image_url": "https://media.eataly.net/media/catalog/product/cache/7/image/9df78eab33525d08d6e5fb8d27136e95/d/e/delizieitalia-taralli-olio-evo-350g-122921.jpg",
+        "image": "taralli.jpg"
+    }
+}, {
+    "pk": 49,
+    "model": "products.product",
+    "fields": {
+        "name": "Gran Pavesi I cracker salati",
+        "brand": "Pavesi",
+        "description": "High-Quality Italian Products. At Summer in Italy we do care about our guests, and this is why we are here, in order to help you making your food shopping in Italy just perfect.",
+        "price": 5.30,
+        "category": 6,
+        "rating": 4.2,
+        "image_url": "https://images-na.ssl-images-amazon.com/images/I/81nTSA%2Bd8iL._AC_SL1500_.jpg",
+        "image": "pavesi.jpg"
+    }
+}, {
+    "pk": 50,
+    "model": "products.product",
+    "fields": {
+        "name": "Crostini Dorati Gli Autentici",
+        "brand": "San Carlo",
+        "description": "High-Quality Italian Products. At Summer in Italy we do care about our guests, and this is why we are here, in order to help you making your food shopping in Italy just perfect.",
+        "price": 3.10,
+        "category": 6,
+        "rating": 4.4,
+        "image_url": "https://digitalcontent.api.tesco.com/v2/media/ghs/1cc3d2ac-bd6f-4e0a-98c7-53724dfc140a/snapshotimagehandler_160601044.jpeg",
+        "image": "crostini.jpg"
+    }
+}, {
+    "pk": 51,
+    "model": "products.product",
+    "fields": {
+        "name": "Bruschetti Peperoncino e Origano",
+        "brand": "San Carlo",
+        "description": "High-Quality Italian Products. At Summer in Italy we do care about our guests, and this is why we are here, in order to help you making your food shopping in Italy just perfect.",
+        "price": 4.10,
+        "category": 6,
+        "rating": 3.9,
+        "image_url": "https://cdn.craispesaonline.it/apps/images/catalog/eg-0018086/eg-0018086_1_big.jpg",
+        "image": "bruschetti.jpg"
+    }
+}, {
+    "pk": 52,
+    "model": "products.product",
+    "fields": {
+        "name": "Bruschetti al gusto olive nere",
+        "brand": "San Carlo",
+        "description": "High-Quality Italian Products. At Summer in Italy we do care about our guests, and this is why we are here, in order to help you making your food shopping in Italy just perfect.",
+        "price": 4.10,
+        "category": 6,
+        "rating": 4.0,
+        "image_url": "https://rsbackend.blob.core.windows.net/cncproduct/GMS_SAN-CARLO-BRUSCHETTI-OLIVE-NERE-GR.50X10.jpg",
+        "image": "bruschetti_ol.jpg"
+    }
+}, {
+    "pk": 53,
+    "model": "products.product",
+    "fields": {
+        "name": "Tarallucci Mulino Bianco",
+        "brand": "Barilla",
+        "description": "High-Quality Italian Products. At Summer in Italy we do care about our guests, and this is why we are here, in order to help you making your food shopping in Italy just perfect.",
+        "price": 4.90,
+        "category": 7,
+        "rating": 4.6,
+        "image_url": "https://images-na.ssl-images-amazon.com/images/I/917bq4ElWIL._AC_SL1500_.jpg",
+        "image": "tarallucci.jpg"
+    }
+}, {
+    "pk": 54,
+    "model": "products.product",
+    "fields": {
+        "name": "Fiesta Classica Box 10",
+        "brand": "Ferrero",
+        "description": "High-Quality Italian Products. At Summer in Italy we do care about our guests, and this is why we are here, in order to help you making your food shopping in Italy just perfect.",
+        "price": 5.10,
+        "category": 7,
+        "rating": 5.0,
+        "image_url": "https://images-na.ssl-images-amazon.com/images/I/71pDn97QvGL._AC_SL1500_.jpg",
+        "image": "fiesta.jpg"
+    }
+}, {
+    "pk": 55,
+    "model": "products.product",
+    "fields": {
+        "name": "Kinder Bueno Box 10",
+        "brand": "Ferrero",
+        "description": "High-Quality Italian Products. At Summer in Italy we do care about our guests, and this is why we are here, in order to help you making your food shopping in Italy just perfect.",
+        "price": 6.40,
+        "category": 7,
+        "rating": 4.8,
+        "image_url": "https://www.cashgolosinas.com/3360/kinder-bueno-classic.jpg",
+        "image": "kinderbueno.jpg"
+    }
+}, {
+    "pk": 56,
+    "model": "products.product",
+    "fields": {
+        "name": "Kinder Delice Box 10",
+        "brand": "Ferrero",
+        "description": "High-Quality Italian Products. At Summer in Italy we do care about our guests, and this is why we are here, in order to help you making your food shopping in Italy just perfect.",
+        "price": 7.70,
+        "category": 7,
+        "rating": 4.3,
+        "image_url": "https://images-na.ssl-images-amazon.com/images/I/811wQHTxMRL._AC_SX679_.jpg",
+        "image": "kinderdel.jpg"
+    }
+}, {
+    "pk": 57,
+    "model": "products.product",
+    "fields": {
+        "name": "Emotivo Montepulciano D'Abruzzo 75cl",
+        "brand": "Montepulciano",
+        "description": "From north to south including the island of Sicily, Italy has an incredible array of wines on offer from both local and international grape varieties.",
+        "price": 12.90,
+        "category": 8,
+        "rating": 4.3,
+        "image_url": "https://d2wwnnx8tks4e8.cloudfront.net/images/app/large/5060137510051_3.JPG",
+        "image": "emotivored.jpg"
+    }
+}, {
+    "pk": 58,
+    "model": "products.product",
+    "fields": {
+        "name": "Melini Chianti Riserva 75cl",
+        "brand": "Melini",
+        "description": "From north to south including the island of Sicily, Italy has an incredible array of wines on offer from both local and international grape varieties.",
+        "price": 10.30,
+        "category": 8,
+        "rating": 5.0,
+        "image_url": "https://terrafoodsandwines.com/wp-content/uploads/2020/05/melini-chianti-reserva-final-1.jpg",
+        "image": "chianti.jpg"
+    }
+}, {
+    "pk": 59,
+    "model": "products.product",
+    "fields": {
+        "name": "Paiara Puglia IGT 2012 75cl",
+        "brand": "Paiara",
+        "description": "From north to south including the island of Sicily, Italy has an incredible array of wines on offer from both local and international grape varieties.",
+        "price": 11.90,
+        "category": 8,
+        "rating": 4.1,
+        "image_url": "https://s.winestyle.ru/images_gen/394/39472/0_0_orig.jpg",
+        "image": "paiara.jpg"
+    }
+}, {
+    "pk": 60,
+    "model": "products.product",
+    "fields": {
+        "name": "Nero D'avola Red Doc Sicily 75cl",
+        "brand": "Alagna",
+        "description": "From north to south including the island of Sicily, Italy has an incredible array of wines on offer from both local and international grape varieties.",
+        "price": 9.10,
+        "category": 8,
+        "rating": 4.9,
+        "image_url": "https://sc02.alicdn.com/kf/Hae69cfddcbcb4fef87eabe77db5614fe9.png",
+        "image": "nerodavola.png"
+    }
+}, {
+    "pk": 61,
+    "model": "products.product",
+    "fields": {
+        "name": "Romandiola Sangiovese Terre Cevico 75cl",
+        "brand": "Romandiola",
+        "description": "From north to south including the island of Sicily, Italy has an incredible array of wines on offer from both local and international grape varieties.",
+        "price": 16.20,
+        "category": 8,
+        "rating": 4.0,
+        "image_url": "https://www.terrecevico.com/wp-content/uploads/2019/01/romandiola_malatesta_sangiovese_romagna_doc-3-142x540.png",
+        "image": "sangiovese.png"
+    }
+}, {
+    "pk": 62,
+    "model": "products.product",
+    "fields": {
+        "name": "Santa Cristina Toscana 75cl",
+        "brand": "Santa Cristina",
+        "description": "From north to south including the island of Sicily, Italy has an incredible array of wines on offer from both local and international grape varieties.",
+        "price": 15.90,
+        "category": 8,
+        "rating": 5.0,
+        "image_url": "https://shop.santacristina.wine/media/catalog/product/cache/1/image/1200x1200/9df78eab33525d08d6e5fb8d27136e95/r/o/rosso2018.png",
+        "image": "santacristina.png"
+    }
+}, {
+    "pk": 63,
+    "model": "products.product",
+    "fields": {
+        "name": "Irpinia Falanghina Corte di Giso DOC 75cl",
+        "brand": "Terredora",
+        "description": "From north to south including the island of Sicily, Italy has an incredible array of wines on offer from both local and international grape varieties.",
+        "price": 11.90,
+        "category": 9,
+        "rating": 4.5,
+        "image_url": "https://italiatella.com/media/image/f4/84/24/vino-irpinia-falanghina-terredora-di-paolo.jpg",
+        "image": "falanghina.jpg"
+    }
+}, {
+    "pk": 64,
+    "model": "products.product",
+    "fields": {
+        "name": "Pinot Grigio Santa Margherita 75cl",
+        "brand": "Alto Adige",
+        "description": "From north to south including the island of Sicily, Italy has an incredible array of wines on offer from both local and international grape varieties.",
+        "price": 7.70,
+        "category": 9,
+        "rating": 3.9,
+        "image_url": "https://www.astorwines.com/images/items/46394_hr.jpg",
+        "image": "pinot.jpg"
+    }
+}, {
+    "pk": 65,
+    "model": "products.product",
+    "fields": {
+        "name": "Paiara Puglia Bianco U.V. 75cl",
+        "brand": "Tormaresca",
+        "description": "From north to south including the island of Sicily, Italy has an incredible array of wines on offer from both local and international grape varieties.",
+        "price": 12.10,
+        "category": 9,
+        "rating": 4.6,
+        "image_url": "https://images.vivino.com/thumbs/5e4xU5CyTy-6BWZVpRXY_Q_pb_x960.png",
+        "image": "paiaraw.png"
+    }
+}, {
+    "pk": 66,
+    "model": "products.product",
+    "fields": {
+        "name": "Organic Fiano Merumalia 75cl",
+        "brand": "Merumalia",
+        "description": "From north to south including the island of Sicily, Italy has an incredible array of wines on offer from both local and international grape varieties.",
+        "price": 15.80,
+        "category": 9,
+        "rating": 3.6,
+        "image_url": "https://winenotitaly.co.uk/img/p/6/9/69-large_default.jpg",
+        "image": "fiano.jpg"
+    }
+}, {
+    "pk": 67,
+    "model": "products.product",
+    "fields": {
+        "name": "Organic Vetus Merumalia 75cl",
+        "brand": "Merumalia",
+        "description": "From north to south including the island of Sicily, Italy has an incredible array of wines on offer from both local and international grape varieties.",
+        "price": 13.20,
+        "category": 8,
+        "rating": 3.5,
+        "image_url": "https://winenotitaly.co.uk/img/p/7/0/70-large_default.jpg",
+        "image": "vetus.jpg"
+    }
+}, {
+    "pk": 68,
+    "model": "products.product",
+    "fields": {
+        "name": "Marchesi di Barolo Gavi di Gavi 75cl",
+        "brand": "Marchesi di Barolo",
+        "description": "From north to south including the island of Sicily, Italy has an incredible array of wines on offer from both local and international grape varieties.",
+        "price": 11.10,
+        "category": 9,
+        "rating": 4.0,
+        "image_url": "https://www.captcaruana.com/wp-content/uploads/wine/marchesi-di-barolo-gavi-di-gavi-75cl.jpg",
+        "image": "gavi.jpg"
+    }
+}, {
+    "pk": 69,
+    "model": "products.product",
+    "fields": {
+        "name": "Lapilli Fiano di Avellino 2017 75cl",
+        "brand": "Lapilli",
+        "description": "From north to south including the island of Sicily, Italy has an incredible array of wines on offer from both local and international grape varieties.",
+        "price": 8.40,
+        "category": 9,
+        "rating": 3.2,
+        "image_url": "https://noblegreen-production.s3-eu-west-2.amazonaws.com/spree/images/7412/large/LA2G14WN-1.jpg",
+        "image": "lapilli.jpg"
+    }
+}, {
+    "pk": 70,
+    "model": "products.product",
+    "fields": {
+        "name": "Mozzarella Campana DOP La Contadina 250g",
+        "brand": "La Contadina",
+        "description": "Buffalo mozzarella is a mozzarella made from the milk of Italian Mediterranean buffalo. It is a dairy product traditionally manufactured in Campania.",
+        "price": 10.60,
+        "category": 10,
+        "rating": 5.0,
+        "image_url": "foodexplore.com/media/catalog/product/cache/2/image/800x800/9df78eab33525d08d6e5fb8d27136e95/m/o/mozzarella-di-bufala-campana-contadina_2.jpg",
+        "image": "mozzarella1.jpg"
+    }
+}, {
+    "pk": 71,
+    "model": "products.product",
+    "fields": {
+        "name": "Mozzarella di Bufala 500g",
+        "brand": "La Contadina",
+        "description": "Buffalo mozzarella is a mozzarella made from the milk of Italian Mediterranean buffalo. It is a dairy product traditionally manufactured in Campania.",
+        "price": 18.20,
+        "category": 10,
+        "rating": 4.6,
+        "image_url": "https://blog.edoapp.it/wp-content/uploads/2015/06/mozzarella.bufala_720.png",
+        "image": "mozzarella2.png"
+    }
+}, {
+    "pk": 72,
+    "model": "products.product",
+    "fields": {
+        "name": "Burrata di Bufala 250g",
+        "brand": "La Contadina",
+        "description": "Buffalo mozzarella is a mozzarella made from the milk of Italian Mediterranean buffalo. It is a dairy product traditionally manufactured in Campania.",
+        "price": 9.60,
+        "category": 10,
+        "rating": 4.9,
+        "image_url": "https://ss-pics.s3.eu-west-1.amazonaws.com/files/690692/large-burrata.png",
+        "image": "burrata.png"
+    }
+}, {
+    "pk": 73,
+    "model": "products.product",
+    "fields": {
+        "name": "Bocconcini di Bufala 500g",
+        "brand": "La Contadina",
+        "description": "Buffalo mozzarella is a mozzarella made from the milk of Italian Mediterranean buffalo. It is a dairy product traditionally manufactured in Campania.",
+        "price": 12.90,
+        "category": 10,
+        "rating": 4.8,
+        "image_url": "https://www.latteriamontecatini.shop/wp-content/uploads/2017/05/bocconcini_di_bufala_della_nuova_montecatini.jpg",
+        "image": "bocconcini.jpg"
+    }
+}, {
+    "pk": 74,
+    "model": "products.product",
+    "fields": {
+        "name": "Green Olives 500g",
+        "brand": "Frutto D'Italia",
+        "description": "Italian starters can, therefore, be a fantastic option for a dinner party; with colourful recipes relying on fresh flavours and quality produce, these dishes will awaken yours guests' palates rather than overpowering them.",
+        "price": 8.90,
+        "category": 11,
+        "rating": 4.3,
+        "image_url": "https://n7.nextpng.com/sticker-png/276/1007/sticker-png-table-olives-production-and-processing-food-fruit-nocellara-del-belice-italian-olives-castelvetrano.png",
+        "image": "olivesgreen.png"
+    }
+}, {
+    "pk": 75,
+    "model": "products.product",
+    "fields": {
+        "name": "Arancini Siciliani 1kg",
+        "brand": "Homemade",
+        "description": "Italian starters can, therefore, be a fantastic option for a dinner party; with colourful recipes relying on fresh flavours and quality produce, these dishes will awaken yours guests' palates rather than overpowering them.",
+        "price": 15.10,
+        "category": 11,
+        "rating": 5.0,
+        "image_url": "https://img.favpng.com/6/0/13/arancini-italian-cuisine-bolognese-sauce-stuffing-sicily-png-favpng-2W5Qiw15RBscAsY4DX4fuFkiQ.jpg",
+        "image": "arancini.jpg"
+    }
+}, {
+    "pk": 76,
+    "model": "products.product",
+    "fields": {
+        "name": "Pizza Dough Homemade Italian Recipe",
+        "brand": "Homemade",
+        "description": "Italian starters can, therefore, be a fantastic option for a dinner party; with colourful recipes relying on fresh flavours and quality produce, these dishes will awaken yours guests' palates rather than overpowering them.",
+        "price": 6.10,
+        "category": 11,
+        "rating": 4.1,
+        "image_url": "https://i7.pngguru.com/preview/469/973/178/pizza-pirozhki-dough-stuffing-yeast-cake-flour.jpg",
+        "image": "dough.jpg"
+    }
+}, {
+    "pk": 77,
+    "model": "products.product",
+    "fields": {
+        "name": "Grilled Aubergines 1kg",
+        "brand": "Homemade",
+        "description": "Italian starters can, therefore, be a fantastic option for a dinner party; with colourful recipes relying on fresh flavours and quality produce, these dishes will awaken yours guests' palates rather than overpowering them.",
+        "price": 14.90,
+        "category": 11,
+        "rating": 5.0,
+        "image_url": "https://www.cucinarefacile.com/wp-content/uploads/2020/05/norm-5.jpg",
+        "image": "melenzane.jpg"
+    }
+}, {
+    "pk": 78,
+    "model": "products.product",
+    "fields": {
+        "name": "Quiche 500gr",
+        "brand": "Homemade",
+        "description": "Italian starters can, therefore, be a fantastic option for a dinner party; with colourful recipes relying on fresh flavours and quality produce, these dishes will awaken yours guests' palates rather than overpowering them.",
+        "price": 12.60,
+        "category": 11,
+        "rating": 3.9,
+        "image_url": "https://banner2.cleanpng.com/20180402/gqw/kisspng-quiche-french-cuisine-breakfast-bacon-pie-tart-5ac272188e8375.9254210615226926325837.jpg",
+        "image": "quiche.jpg"
     }
 }]
