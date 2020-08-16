@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+{% load static %}
+
+
+{% block page_header %}
+{% endblock %}
+
+<!-- Header with BRANDS -->
+<div class="container-fluid">
+    <div class="row bg-white text-center p-4">
+        <div class="col-2">
+            <img src="media/logo/garofalo.png" class="img-fluid" alt="garofalo" width="100" height="auto" />
+        </div>
+        <div class="col-2">
+            <img src="media/logo/bertolli.png" class="img-fluid" alt="garofalo" width="100" height="auto" />
+        </div>
+        <div class="col-2">
+            <img src="media/logo/mulinobianco.png" class="img-fluid" alt="garofalo" width="100" height="auto" />
+        </div>
+        <div class="col-2">
+            <img src="media/logo/paneangeli.png" class="img-fluid" alt="garofalo" width="100" height="auto" />
+        </div>
+        <div class="col-2">
+            <img src="media/logo/star.png" class="img-fluid" alt="garofalo" width="100" height="auto" />
+        </div>
+        <div class="col-2">
+            <img src="media/logo/yoga.jpg" class="img-fluid" alt="garofalo" width="100" height="auto" />
+        </div>
+    </div>
+</div>
+
+
+{% block content %}
+<!-- Container Body -->
+<div class="container mt-5">
+    <div class="row">
+
+        <!-- Main section -->
+        <div class="col-12">
+
+        {{ products }}
+        
+        </div>        
+
+    </div>
+</div>
+{% endblock %}
