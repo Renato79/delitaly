@@ -50,7 +50,7 @@
             </div>
             <div class="col-12 col-lg-4 my-auto py-1 py-lg-0">
                 <!-- Search Bar-->
-                <form method="GET" action="">
+                <form method="GET" action="{% url 'products' %}">
                     <div class="input-group w-100">
                         <input class="form-control" type="text" name="q" placeholder="Search our site">
                         <div class="input-group-append">
@@ -145,7 +145,7 @@
     {% block postloadjs %}
     {% endblock %}
 
-    <footer class="bg-dark mt-5 text-white">
+    <footer class="bg-dark text-white">
         <div class="d-flex flex-wrap justify-content-around p-5">
             <div class="p-2 mb-5 mb-sm-0">
                 <h6 class="pb-3">Information</h6>

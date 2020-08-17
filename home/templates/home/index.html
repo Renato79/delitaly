@@ -5,6 +5,8 @@
 {% block page_header %}
 {% endblock %}
 
+
+{% block content %}
 <!-- Header with BRANDS -->
 <div class="container-fluid">
     <div class="row bg-white text-center p-4">
@@ -30,7 +32,7 @@
 </div>
 
 
-{% block content %}
+
 <!-- Container Body -->
 <div class="container header-container mt-5">
     <div class="row">
@@ -41,21 +43,21 @@
             <!-- Speciality -->
             <div class="row mt-3">
                 <div class="col-12 text-center">
-                    <img src="media/mozzarella.jpg" class="img-fluid" alt="mozzarella" width="350" height="auto" />
+                    <img src="media/prodotti.png" class="img-fluid" alt="mozzarella" width="700" height="auto" />
                 </div>
                 <div class="col-12 mt-4">
                     <h4>Delitaly</h4>
                     <h5><i>Passionate about Italian food&wine</i></h5>
                     <p> Our specialties and all our products are the result of a long tradition. We import the best
                         products of the Italian tradition so that you can have the most genuine and high quality products. 
-                        Take a look at our section <a href="templates/speciality.html" class="text-link"><i>Speciality</i></a> 
+                        Take a look at our <a href="{% url 'products' %}" class="text-link"><i>Shop</i></a> 
                         to find fresh products, and savor the true Italian tradition brought directly to your home.</p>
                 </div>
             </div>
 
             <div class="row mt-3">
                 <div class="col-12 mb-5 text-center">
-                    <a class="main-buttons" href="templates/specility.html">Speciality</a>
+                    <a class="main-buttons" href="{% url 'products' %}">All Products</a>
                 </div>
             </div>
 
