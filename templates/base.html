@@ -90,14 +90,14 @@
                         </div>
                     </li>
                     <li class="list-inline-item">
-                        <a class="{% if grand_total %}text-info font-weight-bold{% else %}text-dark{% endif %} nav-link" href="">
+                        <a class="{% if grand_total %}text-info font-weight-bold{% else %}text-dark{% endif %} nav-link" href="{% url 'view_bag' %}">
                             <div class="text-center">
                                 <div class="top-iconsc"><i class="fas fa-shopping-basket fa-lg"></i></div>
                                 <p class="my-0 top-iconsp">
                                     {% if grand_total %}
                                     ${{ grand_total|floatformat:2 }}
                                     {% else %}
-                                    €0.00
+                                    € 0.00
                                     {% endif %}
                                 </p>
                             </div>
@@ -118,7 +118,7 @@
 
         <div class="row text-center bg-dark">
             <div class="col-12">
-                <h6 class="my-1 text-white">Free delivery on orders over € 60{{ free_shipping_threshold }}!</h6>
+                <h6 class="my-1 text-white">Free delivery on orders over € {{ free_delivery_threshold }}!</h6>
             </div>
             <div class="social-topicons d-none d-md-flex">
                 <a href="#" class="text-white"><i class="fab fa-facebook-f mr-2 align-middle"></i></a>
@@ -145,6 +145,8 @@
     {% block postloadjs %}
     {% endblock %}
 
+    <div class="col my-5 py-5"></div>
+    
     <footer class="bg-dark text-white">
         <div class="d-flex flex-wrap justify-content-around p-5">
             <div class="p-2 mb-5 mb-sm-0">

@@ -1,3 +1,7 @@
+a.text-link {
+    color: #90A74C !important;
+}
+
 a.text-link:link {
     color: #90A74C !important;
 }
@@ -7,7 +11,7 @@ a.text-link:hover {
     color: #597718 !important;
 }
 
-a.main-buttons:link {
+a.main-buttons {
     background-color: none;
     width: 40%;
     color: #597718;
@@ -26,17 +30,22 @@ a.main-buttons:hover {
     color: #FFFFFF;
     transition: all .4s ease-in-out;
     -webkit-transition: all .4s ease-in-out;
-  }
-
-  .overlay {
-	height: 100%;
-	width: 100%;
-	top: 0;
-	left: 0;
-	position: fixed;
-	background: white;
-	z-index: -1;
 }
+
+.overlay {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    background: white;
+    z-index: -1;
+}
+
+select.border-basicgreen {
+    border-color: #597718 !important;
+}
+
 
 /* Contact us */
 
@@ -56,12 +65,38 @@ h1.contact-header {
     border: #597718;
 }
 
-button.push:hover, button.push:active, button.push:focus {
+button.push:hover,
+button.push:active,
+button.push:focus {
     background-color: #37490f !important;
     border: #597718 !important;
     transition: all .4s ease-in-out;
     -webkit-transition: all .4s ease-in-out;
 }
+
+.btt-button {
+    height: 42px;
+    width: 42px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    color: #597718;
+}
+
+.btt-link {
+    cursor: pointer;
+}
+
+.arrow-div {
+    border-style: none none solid none;
+    border-width: thin;
+    border-color: #e5e5e5;
+    color: #597718;
+    cursor: pointer;
+}
+
+
+
 
 /* Footer */
 
@@ -83,14 +118,14 @@ footer {
 footer {
     margin-top: auto !important;
     font-size: 10px;
-  }
+}
 
 
 @media (min-width: 992px) {
     footer {
         font-size: small;
     }
-    
+
 
     .payment-icons {
         font-size: 24px;
