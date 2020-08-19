@@ -42,7 +42,7 @@
             <div class="image-container my-5 pt-5 pr-5 text-center text-md-right"> <!-- ADDED text-center HERE -->
                 {% if product.image %}
                     <a href="{{ product.image.url }}" target="_blank">
-                        <img class="card-img-top img-fluid" style="height: 100%; max-height: 18rem; width: auto;" src="{{ product.image.url }}" alt="{{ product.name }}">
+                        <img class="card-img-top img-fluid mr-4" style="height: 100%; max-height: 18rem; width: auto;" src="{{ product.image.url }}" alt="{{ product.name }}">
                     </a>
                     {% else %}
                     <a href="">
@@ -80,14 +80,14 @@
                             </div>
                         </div>
  
-                        <div class="col-12 mt-5">
+                        <div class="col-12 mt-5 d-flex">
                             <a href="{% url 'products' %}" class="product-button">
                                 <span class="icon">
                                     <i class="fas fa-chevron-left"></i>
                                 </span>
                                 <span class="text-uppercase">Shop</span>
                             </a>
-                            <input type="submit" class="btn btn-primary text-uppercase addtocart-btn" value="Add to Bag">
+                            <input type="submit" class="btn btn-primary text-uppercase addtocart-btn ml-2" value="Add to Bag">
                         </div>
                         <input type="hidden" name="redirect_url" value="{{ request.path }}">
                     </div>

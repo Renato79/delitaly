@@ -18,6 +18,19 @@
     color: #597718 !important;
 }
 
+.full-bag, i.full-bag {
+    font-size: 20px !important;
+    color: #b4000F !important;
+}
+
+p.full-bag {
+    font-size: 10px !important;
+}
+
+.full-bag-mob, i.full-bag-mob {
+    color: #b4000F !important;
+}
+
 .nav-link a:link {
     color: #90A74C !important;
 }
@@ -27,7 +40,6 @@
     color: #597718 !important;
 }
 /* NAVBAR END */ 
-
 
 .main-banner {
     background-color: #cf9d45;

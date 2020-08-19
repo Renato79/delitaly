@@ -24,7 +24,6 @@ a.main-buttons {
     font-size: 1rem;
 }
 
-
 a.main-buttons:hover {
     background-color: #37490f !important;
     color: #FFFFFF;
@@ -44,6 +43,10 @@ a.main-buttons:hover {
 
 select.border-basicgreen {
     border-color: #597718 !important;
+}
+
+.text-delitaly {
+    font-family: 'Montserrat', sans-serif !important;
 }
 
 
@@ -77,10 +80,10 @@ button.push, input.push:focus {
 
 a.product-button {
     background-color: none;
-    width: 140px;
+    width: 125px;
+    height: 40px;
     color: #597718;
     padding: 10px 25px;
-    /* margin: 0 20px; */
     border: 1px solid #597718;
     border-radius: 5px;
     text-align: center;
@@ -99,8 +102,10 @@ a.product-button:hover {
 
 .addtocart-btn, input.addtocart-btn:target {
     font-size: 14px;
-    padding: 11px 25px; 
-    margin-bottom: 1px;
+    height: 40px;
+    padding: 0px 20px; 
+    text-align: center;
+    margin-bottom: none;
     background-color: #597718;
     border: #597718;
 }
@@ -108,6 +113,7 @@ a.product-button:hover {
 input.addtocart-btn:hover,
 input.addtocart-btn:active, 
 input.addtocart-btn:focus {
+    text-align: center;
     background-color: #37490f !important;
     border: #597718 !important;
     transition: all .4s ease-in-out;
@@ -137,6 +143,19 @@ footer {
     margin-top: auto !important;
     font-size: 10px;
 }
+
+
+@media (min-width: 768px) {
+    a.product-button {
+        width: 140px;
+    }
+
+    input.addtocart-btn {
+        width: 140px;
+        text-align: center;
+    }
+}
+
 
 
 @media (min-width: 992px) {
