@@ -60,41 +60,59 @@ h1.contact-header {
 }
 
 
-.push, button.push:target {
+.push, button.push, input.push:target {
     background-color: #597718;
     border: #597718;
 }
 
-button.push:hover,
-button.push:active,
-button.push:focus {
+button.push, input.push:hover,
+button.push, input.push:active,
+button.push, input.push:focus {
     background-color: #37490f !important;
     border: #597718 !important;
     transition: all .4s ease-in-out;
     -webkit-transition: all .4s ease-in-out;
 }
 
-.btt-button {
-    height: 42px;
-    width: 42px;
-    position: fixed;
-    bottom: 10px;
-    right: 10px;
+
+a.product-button {
+    background-color: none;
+    width: 140px;
     color: #597718;
+    padding: 10px 25px;
+    /* margin: 0 20px; */
+    border: 1px solid #597718;
+    border-radius: 5px;
+    text-align: center;
+    display: inline-block;
+    font-size: 14px;
 }
 
-.btt-link {
-    cursor: pointer;
+
+a.product-button:hover {
+    background-color: #37490f !important;
+    color: #FFFFFF;
+    transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
 }
 
-.arrow-div {
-    border-style: none none solid none;
-    border-width: thin;
-    border-color: #e5e5e5;
-    color: #597718;
-    cursor: pointer;
+
+.addtocart-btn, input.addtocart-btn:target {
+    font-size: 14px;
+    padding: 11px 25px; 
+    margin-bottom: 1px;
+    background-color: #597718;
+    border: #597718;
 }
 
+input.addtocart-btn:hover,
+input.addtocart-btn:active, 
+input.addtocart-btn:focus {
+    background-color: #37490f !important;
+    border: #597718 !important;
+    transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+}
 
 
 
