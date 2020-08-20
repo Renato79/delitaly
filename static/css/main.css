@@ -31,24 +31,14 @@ a.main-buttons:hover {
     -webkit-transition: all .4s ease-in-out;
 }
 
-.overlay {
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    position: fixed;
-    background: white;
-    z-index: -1;
-}
 
 select.border-basicgreen {
     border-color: #597718 !important;
 }
 
-.text-delitaly {
-    font-family: 'Montserrat', sans-serif !important;
+.bag-text {
+    font-size: 12px;
 }
-
 
 /* Contact us */
 
@@ -81,9 +71,9 @@ button.push, input.push:focus {
 a.product-button {
     background-color: none;
     width: 125px;
-    height: 40px;
+
     color: #597718;
-    padding: 10px 25px;
+    padding: 6px 25px;
     border: 1px solid #597718;
     border-radius: 5px;
     text-align: center;
@@ -121,6 +111,53 @@ input.addtocart-btn:focus {
 }
 
 
+a.bag-keepshop-btn {
+    background-color: none;
+    width: 125px;
+    height: 50px;
+    color: #597718;
+    padding: 10px 20px;
+    border: 1px solid #597718;
+    border-radius: 5px;
+    text-align: center;
+    justify-items: center;
+    font-size: 12px;
+}
+
+
+a.bag-keepshop-btn:hover {
+    background-color: #37490f !important;
+    color: #FFFFFF;
+    transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+}
+
+.bagcheckout-btn, aa.bagcheckout-btn:target {
+    background-color: none;
+    width: 145px;
+    height: 50px;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    border: 1px solid #597718;
+    border-radius: 5px;
+    text-align: center;
+    justify-items: center;
+    background-color: #597718;
+    font-size: 12px;
+}
+
+a.bagcheckout-btn:hover,
+a.bagcheckout-btn:active, 
+a.bagcheckout-btn:focus {
+    text-align: center;
+    background-color: #37490f !important;
+    border: #597718 !important;
+    transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    color: #FFFFFF;
+}
+
+
 
 /* Footer */
 
@@ -144,6 +181,11 @@ footer {
     font-size: 10px;
 }
 
+@media (min-width:576px) {
+    .bag-text {
+        font-size: 16px;
+    }
+}
 
 @media (min-width: 768px) {
     a.product-button {
@@ -154,6 +196,21 @@ footer {
         width: 140px;
         text-align: center;
     }
+
+    a.bag-keepshop-btn {
+        width: 185px;
+        padding: 10px 25px;
+        font-size: 1rem;
+    }
+
+    
+    .bagcheckout-btn, aa.bagcheckout-btn:target {
+        width: 185px;
+        padding: 10px 25px;
+        font-size: 1rem;
+    }
+
+
 }
 
 

@@ -6,6 +6,7 @@ body {
   flex-direction: column !important;
   background-color: #FFFFFF;
   font-family: 'Montserrat', sans-serif !important;
+  color: #555;
 }
 
 h1, h2, h3, h4 {
