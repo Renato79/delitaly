@@ -18,6 +18,10 @@ h5, h6 {
 }
 
 
+a {
+  cursor: pointer !important;
+}
+
 a:link {
   text-decoration: none;
 }
