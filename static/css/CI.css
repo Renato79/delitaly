@@ -1,8 +1,15 @@
 /* Boutique Ado Class */
 
 .btn-black {
-    background: #37490f;
+    background: #597718;
     color: white;
+}
+
+.btn-black:hover,
+.btn-black:active,
+.btn-black:focus {
+    background: #37490f;
+    color: white !important;
 }
 
 .btt-button {
@@ -30,6 +37,22 @@
     background: black;
     color: white !important;
 }
+
+.message-container {
+    position: fixed;
+    top: 72px;
+    right: 15px;
+    z-index: 99999999999;
+}
+
+.custom-toast {
+    overflow: visible;
+}
+
+.toast-capper {
+    height: 2px;
+}
+
 
 .icon {
     align-items: center;
