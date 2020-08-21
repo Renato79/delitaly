@@ -26,15 +26,16 @@
 }
 
 .btn-outline-black {
-    background: white;
-    color: black !important; /* use important to override link colors for <a> elements */
-    border: 1px solid black;
+    background: none;
+    color: #597718 !important;
+    border: 1px solid #597718;
+    border-radius: 5px !important;
 }
 
 .btn-outline-black:hover,
 .btn-outline-black:active,
 .btn-outline-black:focus {
-    background: black;
+    background: #37490f;
     color: white !important;
 }
 
