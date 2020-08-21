@@ -132,7 +132,7 @@ a.bag-keepshop-btn:hover {
     -webkit-transition: all .4s ease-in-out;
 }
 
-.bagcheckout-btn, aa.bagcheckout-btn:target {
+.bagcheckout-btn, a.bagcheckout-btn:target {
     background-color: none;
     width: 145px;
     height: 50px;

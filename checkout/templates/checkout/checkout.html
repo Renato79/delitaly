@@ -117,7 +117,7 @@
 							</span>
 							<span class="font-weight-bold">Adjust Bag</span>
 						</a>
-						<button id="submit-button" class="btn btn-black rounded-0">
+						<button id="submit-button" class="btn btn-black rounded-2">
 							<span class="font-weight-bold">Complete Order</span>
 							<span class="icon">
 								<i class="fas fa-lock"></i>
@@ -134,4 +134,11 @@
             </div>
         </div>
     </div>
+{% endblock %}
+
+{% block postloadjs %}
+    {{ block.super }}
+    {{ stripe_public_key|json_script:"id_stripe_public_key" }}
+    {{ client_secret|json_script:"id_client_secret" }}
+    <script src="{% static 'checkout/js/stripe_elements.js' %}"></script>
 {% endblock %}
