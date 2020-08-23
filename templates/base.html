@@ -114,8 +114,123 @@
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                {% include '/includes/mobile-top-header.html' %}
-                {% include '/includes/main-nav.html' %}
+                <!-- remove includes becaause Heroku cannot find the file -->
+                <li class="list-inline-item">
+                    <a class="nav-link d-block d-lg-none" href="#" id="mobile-search" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <div class="text-center">
+                            <div class="top-iconsc"><i class="fas fa-search fa-lg"></i></div>
+                            <p class="my-0 top-iconsp-mobile">Search</p>
+                        </div>
+                    </a>
+                    <div class="dropdown-menu border-0 w-100 p-3 rounded-0 my-0" aria-labelledby="mobile-search">
+                        <form class="form" method="GET" action="{% url 'products' %}">
+                            <div class="input-group w-100">
+                                <input class="form-control rounded" type="text" name="q" placeholder="Search our site">
+                                <div class="input-group-append">
+                                    <button class="form-control form-control rounded" type="submit">
+                                        <span>
+                                            <i class="fas fa-search"></i>
+                                        </span>
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </li>
+                <li class="list-inline-item dropdown">
+                    <a class="nav-link d-block d-lg-none" href="#" id="user-options" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <div class="text-center">
+                            <div class="top-iconsc"><i class="fas fa-user fa-lg"></i></div>
+                            <p class="my-0 top-iconsp-mobile">My Account</p>
+                        </div>
+                    </a>
+                    <div class="dropdown-menu border-1" aria-labelledby="user-options">
+                        {% if request.user.is_authenticated %}
+                            {% if request.user.is_superuser %}
+                                <a href="{% url 'add_product' %}" class="dropdown-item">My Products</a>
+                            {% endif %}
+                            <a href="{% url 'profile' %}" class="dropdown-item">My Profile</a>
+                            <a href="{% url 'account_logout' %}" class="dropdown-item">Logout</a>
+                        {% else %}
+                            <a href="{% url 'account_signup' %}" class="dropdown-item">Register</a>
+                            <a href="{% url 'account_login' %}" class="dropdown-item">Login</a>
+                        {% endif %}
+                    </div>
+                </li>
+                <li class="list-inline-item">
+                    <a class="{% if grand_total %}text-primary font-weight-bold{% else %}text-black{% endif %} nav-link d-block d-lg-none" href="{% url 'view_bag' %}">
+                        <div class="text-center">
+                            <div class="top-iconsc"><i class="fas fa-shopping-basket fa-lg {% if grand_total %} full-bag {% endif %}"></i></div>
+                            <p class="my-0 {% if grand_total %} full-bag {% else %} top-iconsp-mobile {% endif %}">
+                                {% if grand_total %}
+                                    € {{ grand_total|floatformat:2 }}
+                                {% else %}
+                                    € 0.00
+                                {% endif %}
+                            </p>
+                        </div>
+                    </a>
+                </li>
+                <div class="collapse navbar-collapse" id="main-nav">
+                    <ul class="navbar-nav w-auto mx-auto">
+                        <li class="nav-item mr-2">
+                            <a class="nav-link mr-4" href="{% url 'home' %}">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link mr-4" href="{% url 'products' %}?category=pasta,olive_oil,tomatoes" id="pantry" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Pasta & Pantry
+                            </a>
+                            <div class="dropdown-menu border-0" aria-labelledby="pantry">
+                                <a href="{% url 'products' %}?category=pasta" class="dropdown-item">Pasta</a>
+                                <a href="{% url 'products' %}?category=olive_oil" class="dropdown-item">Olive Oil</a>
+                                <a href="{% url 'products' %}?category=tomatoes" class="dropdown-item">Tomatoes</a>
+                            </div>
+                        </li>
+                
+                        <li class="nav-item dropdown">
+                            <a class="nav-link mr-4" href="{% url 'products' %}?category=deli_meats,cheese" id="deli" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Deli & Dairy
+                            </a>
+                
+                            <div class="dropdown-menu border-0" aria-labelledby="deli">
+                                <a href="{% url 'products' %}?category=deli_meats" class="dropdown-item">Deli Meats</a>
+                                <a href="{% url 'products' %}?category=cheese" class="dropdown-item">Cheese</a>
+                            </div>
+                        </li>
+                
+                        <li class="nav-item dropdown">
+                            <a class="nav-link mr-4" href="{% url 'products' %}?category=snacks,sweets" id="snacks" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Sweets & Snacks
+                            </a>
+                            <div class="dropdown-menu border-0" aria-labelledby="snacks">
+                                <a href="{% url 'products' %}?category=snacks" class="dropdown-item">Snacks</a>
+                                <a href="{% url 'products' %}?category=sweets" class="dropdown-item">Sweets</a>
+                            </div>
+                        </li>
+                
+                        <li class="nav-item dropdown">
+                            <a class="nav-link mr-4" href="{% url 'products' %}?category=red_whine,white_wine" id="wines" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Drinks & Wines
+                            </a>
+                            <div class="dropdown-menu border-0" aria-labelledby="wines">
+                                <a href="{% url 'products' %}?category=red_whine" class="dropdown-item">Red Wine</a>
+                                <a href="{% url 'products' %}?category=white_wine" class="dropdown-item">White Wine</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link mr-4" href="{% url 'products' %}?category=buffalo,starters" id="speciality" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                Speciality
+                            </a>
+                            <div class="dropdown-menu border-0" aria-labelledby="speciality">
+                                <a href="{% url 'products' %}?category=buffalo" class="dropdown-item">Buffalo Mozzarella</a>
+                                <a href="{% url 'products' %}?category=starters" class="dropdown-item">Starters</a>
+                            </div>
+                        </li>
+                        <li class="nav-item d-lg-none">
+                            <a class="nav-link mr-4" href="{% url 'home' %}">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
             </nav>
         </div>
 
