@@ -38,7 +38,11 @@
                         {% for item in bag_items %}
                             <tr>
                                 <td class="p-3 w-25 text-center">
-                                    <img class="img-fluid rounded" style="height: 100%; max-height: 10rem; width: auto;" src="{{ item.product.image.url }}">
+                                    {% if item.product.image %}
+                                    <img class="img-fluid rounded" style="height: 100%; max-height: 10rem; width: auto;" src="{{ item.product.image.url }}" alt="{{ item.product.name }}">
+                                    {% else %}
+                                    <img class="img-fluid rounded" style="height: 100%; max-height: 10rem; width: auto;" src="{{ MEDIA_URL }}noimage.png" alt="{{ item.product.name }}">
+                                    {% endif %}                                    
                                 </td>
                                 <td class="py-3">
                                     <p class="my-0"><strong>{{ item.product.name }}</strong></p>
