@@ -38,10 +38,10 @@
                     <table class="table table-sm table-borderless">
                         <thead>
                             <tr>
-                                <th>Order Number</th>
+                                <th>Order</th>
                                 <th>Date</th>
                                 <th>Items</th>
-                                <th>Order Total</th>
+                                <th>Total</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -63,7 +63,7 @@
                                             {% endfor %}
                                         </ul>
                                     </td>
-                                    <td>${{ order.grand_total }}</td>
+                                    <td>€ {{ order.grand_total }}</td>
                                 </tr>
                             {% endfor %}
                         </tbody>
