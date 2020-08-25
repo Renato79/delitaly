@@ -22,7 +22,7 @@
             this.contact_number.value = Math.random() * 100000 | 0;
             emailjs.sendForm('contact_service', 'contact_form', this)
             .then(function(response) {
-               window.location.href = "#";
+               window.location.href = "{% url 'sent' %}";
             }, function(error) {
                alert('Sorry there was a problem. Please try again.');
             });
