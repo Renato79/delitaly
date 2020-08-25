@@ -76,8 +76,10 @@
 /* Allauth form formatting */
 
 .allauth-form-inner-content p {
-    margin-top: 1.5rem; /* mt-4 */
-    color: #555; /* text-secondary */
+    margin-top: 1.5rem;
+    /* mt-4 */
+    color: #555;
+    /* text-secondary */
 }
 
 .allauth-form-inner-content input {
@@ -95,8 +97,8 @@
 
 .allauth-form-inner-content button,
 .allauth-form-inner-content input[type='submit'] {
-	/* btn */
-	display: inline-block;
+    /* btn */
+    display: inline-block;
     font-weight: 400;
     color: #fff;
     text-align: center;
@@ -113,22 +115,22 @@
     border-radius: 5px;
 
     /* standard bootstrap btn transitions */
-    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
 }
 
 .allauth-form-inner-content button:hover,
-.allauth-form-inner-content input[type='submit']:hover {	
-	color: #fff;
+.allauth-form-inner-content input[type='submit']:hover {
+    color: #fff;
     background-color: #37490f !important;
     border: #597718 !important;
 }
 
 .allauth-form-inner-content a {
-	color: #90A74C;
+    color: #90A74C;
 }
 
 .allauth-form-inner-content a:hover {
-	color: #597718;
+    color: #597718;
 }
 
 input[name='q']::placeholder {

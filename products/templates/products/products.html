@@ -22,7 +22,8 @@
             <img src="{{ MEDIA_URL }}bertollilogo.png" class="img-fluid" alt="bertolli" width="100" height="auto" />
         </div>
         <div class="col-2">
-            <img src="{{ MEDIA_URL }}mulinobianco.png" class="img-fluid" alt="mulino bianco" width="100" height="auto" />
+            <img src="{{ MEDIA_URL }}mulinobianco.png" class="img-fluid" alt="mulino bianco" width="100"
+                height="auto" />
         </div>
         <div class="col-2">
             <img src="{{ MEDIA_URL }}paneangeli.png" class="img-fluid" alt="paneangeli" width="100" height="auto" />
@@ -57,7 +58,8 @@
             <div class="row mt-1 mb-2">
                 <div class="col-12 col-md-6 my-auto order-md-last d-flex justify-content-center justify-content-md-end">
                     <div class="sort-select-wrapper w-50">
-                        <select id="sort-selector" class="custom-select custom-select-sm rounded-0 border border-{% if current_sorting != 'None_None' %}basicgreen{% else %}black{% endif %}">
+                        <select id="sort-selector"
+                            class="custom-select custom-select-sm rounded-0 border border-{% if current_sorting != 'None_None' %}basicgreen{% else %}black{% endif %}">
                             <option value="reset" {% if current_sorting == 'None_None' %}selected{% endif %}>Sort by...
                             </option>
                             <option value="price_asc" {% if current_sorting == 'price_asc' %}selected{% endif %}>Price
@@ -117,7 +119,8 @@
                                     <p class="lead mb-0 font-weight-bold">€ {{ product.price }}</p>
                                     {% if product.category %}
                                     <p class="small mt-1 mb-0">
-                                        <a class="text-muted" href="{% url 'products' %}?category={{ product.category.name }}">
+                                        <a class="text-muted"
+                                            href="{% url 'products' %}?category={{ product.category.name }}">
                                             <i class="fas fa-tag mr-1"></i>{{ product.category.friendly_name }}
                                         </a>
                                     </p>
@@ -130,10 +133,10 @@
                                     {% endif %}
                                     {% if request.user.is_superuser %}
                                     <small class="ml-3">
-                                        <a href="{% url 'edit_product' product.id %}">Edit</a> | 
+                                        <a href="{% url 'edit_product' product.id %}">Edit</a> |
                                         <a class="text-danger" href="{% url 'delete_product' product.id %}">Delete</a>
                                     </small>
-                                    {% endif %}                                    
+                                    {% endif %}
                                 </div>
                             </div>
                         </div>
@@ -168,25 +171,16 @@
 <div class="btt-button shadow-sm rounded-0 border border-black">
     <a class="btt-link d-flex h-100">
         <i class="fas fa-arrow-circle-up mx-auto my-auto"></i>
-        
-    </a>	
-</div>
 
-<!--
-<div class="shadow-sm arrow-div">
-    <a class="btt-link d-flex h-100">
-        <i class="fas fa-arrow-circle-up mx-auto my-auto"></i>
-        
     </a>
 </div>
--->
 {% endblock %}
 
 {% block postloadjs %}
 {{ block.super }}
 <script type="text/javascript">
-    $('.btt-link').click(function(e) {
-        window.scrollTo(0,0)
+    $('.btt-link').click(function (e) {
+        window.scrollTo(0, 0)
     })
 </script>
 

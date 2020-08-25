@@ -4,7 +4,7 @@
     width: 12rem;
 }
 
-.top-iconsc > i {
+.top-iconsc>i {
     color: #597718 !important;
 }
 
@@ -18,7 +18,8 @@
     color: #597718 !important;
 }
 
-.full-bag, i.full-bag {
+.full-bag,
+i.full-bag {
     font-size: 20px !important;
     color: #b4000F !important;
 }
@@ -27,19 +28,24 @@ p.full-bag {
     font-size: 10px !important;
 }
 
-.full-bag-mob, i.full-bag-mob {
+.full-bag-mob,
+i.full-bag-mob {
     color: #b4000F !important;
 }
 
-.nav-link a:link {
+.nav-link a:link,
+a:visited {
     color: #90A74C !important;
 }
 
-.nav-item a:hover {
+.nav-item a:hover,
+a:active {
     font-weight: 600 !important;
+    font-size: 1rem;
     color: #597718 !important;
 }
-/* NAVBAR END */ 
+
+/* NAVBAR END */
 
 .main-banner {
     background-color: #cf9d45;

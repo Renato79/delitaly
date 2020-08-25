@@ -9,11 +9,15 @@ body {
   color: #555;
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
   color: #37490f;
 }
 
-h5, h6 {
+h5,
+h6 {
   color: #597718;
 }
 
@@ -38,8 +42,9 @@ a:active {
   text-decoration: none;
 }
 
-input, select, #card-element {
+input,
+select,
+#card-element {
   border-color: rgb(216, 209, 209) !important;
   border-radius: 5px;
 }
-

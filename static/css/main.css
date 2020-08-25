@@ -11,6 +11,11 @@ a.text-link:hover {
     color: #597718 !important;
 }
 
+a.text-link:visited {
+    color: #90A74C !important;
+}
+
+
 a.main-buttons {
     background-color: none;
     width: 40%;
@@ -29,6 +34,10 @@ a.main-buttons:hover {
     color: #FFFFFF;
     transition: all .4s ease-in-out;
     -webkit-transition: all .4s ease-in-out;
+}
+
+a.main-buttons:visited {
+    color: #597718;
 }
 
 
@@ -53,14 +62,19 @@ h1.contact-header {
 }
 
 
-.push, button.push, input.push:target {
+.push,
+button.push,
+input.push:target {
     background-color: #597718;
     border: #597718;
 }
 
-button.push, input.push:hover,
-button.push, input.push:active,
-button.push, input.push:focus {
+button.push,
+input.push:hover,
+button.push,
+input.push:active,
+button.push,
+input.push:focus {
     background-color: #37490f !important;
     border: #597718 !important;
     transition: all .4s ease-in-out;
@@ -71,7 +85,6 @@ button.push, input.push:focus {
 a.product-button {
     background-color: none;
     width: 125px;
-
     color: #597718;
     padding: 6px 25px;
     border: 1px solid #597718;
@@ -89,11 +102,17 @@ a.product-button:hover {
     -webkit-transition: all .4s ease-in-out;
 }
 
+a.product-button:visited {
+    color: #597718;
+}
 
-.addtocart-btn, input.addtocart-btn:target {
+
+
+.addtocart-btn,
+input.addtocart-btn:target {
     font-size: 14px;
     height: 40px;
-    padding: 0px 20px; 
+    padding: 0px 20px;
     text-align: center;
     margin-bottom: none;
     background-color: #597718;
@@ -101,7 +120,7 @@ a.product-button:hover {
 }
 
 input.addtocart-btn:hover,
-input.addtocart-btn:active, 
+input.addtocart-btn:active,
 input.addtocart-btn:focus {
     text-align: center;
     background-color: #37490f !important;
@@ -132,7 +151,8 @@ a.bag-keepshop-btn:hover {
     -webkit-transition: all .4s ease-in-out;
 }
 
-.bagcheckout-btn, a.bagcheckout-btn:target {
+.bagcheckout-btn,
+a.bagcheckout-btn:target {
     background-color: none;
     width: 145px;
     height: 50px;
@@ -147,7 +167,7 @@ a.bag-keepshop-btn:hover {
 }
 
 a.bagcheckout-btn:hover,
-a.bagcheckout-btn:active, 
+a.bagcheckout-btn:active,
 a.bagcheckout-btn:focus {
     text-align: center;
     background-color: #37490f !important;
@@ -166,10 +186,13 @@ footer {
     font-size: 10px;
 }
 
-footer a:link, a:visited, a:active, a:hover {
-    font-size: 10px;
-    text-decoration: none;
-    color: #FFFFFF;
+footer a:link,
+a:visited,
+a:active,
+a:hover {
+    font-size: 10px !important;
+    text-decoration: none !important;
+    color: #FFFFFF !important;
 }
 
 
@@ -205,8 +228,9 @@ footer a:link, a:visited, a:active, a:hover {
         font-size: 1rem;
     }
 
-    
-    .bagcheckout-btn, aa.bagcheckout-btn:target {
+
+    .bagcheckout-btn,
+    aa.bagcheckout-btn:target {
         width: 185px;
         padding: 10px 25px;
         font-size: 1rem;
@@ -219,14 +243,17 @@ footer a:link, a:visited, a:active, a:hover {
 
 @media (min-width: 992px) {
     footer {
-        font-size: small;
+        font-size: small !important;
     }
 
-    footer a:link, a:visited, a:active, a:hover {
-        font-size: small;
+    footer a:link,
+    a:visited,
+    a:active,
+    a:hover {
+        font-size: small !important;
     }
 
-    
+
     .payment-icons {
         font-size: 24px;
     }
