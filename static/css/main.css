@@ -166,6 +166,13 @@ footer {
     font-size: 10px;
 }
 
+footer a:link, a:visited, a:active, a:hover {
+    font-size: 10px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+
 .payment-icons {
     font-size: 16px;
 }
@@ -175,11 +182,6 @@ footer {
     margin-bottom: 300px;
 }
 
-
-footer {
-    margin-top: auto !important;
-    font-size: 10px;
-}
 
 @media (min-width:576px) {
     .bag-text {
@@ -220,7 +222,11 @@ footer {
         font-size: small;
     }
 
+    footer a:link, a:visited, a:active, a:hover {
+        font-size: small;
+    }
 
+    
     .payment-icons {
         font-size: 24px;
     }

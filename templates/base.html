@@ -15,13 +15,9 @@
     {% endblock %}
 
     {% block corecss %}
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
-        rel="stylesheet">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300;400;500;600;700&display=swap"
-        rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="{% static 'css/CI.css' %}">
     <link rel="stylesheet" type="text/css" href="{% static 'css/header.css' %}">
     <link rel="stylesheet" type="text/css" href="{% static 'css/main.css' %}">
@@ -34,12 +30,8 @@
     {% block corejs %}
     <script src="https://kit.fontawesome.com/74df30c221.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
-    </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
-    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
     <!-- Stripe JS-->
     <script src="https://js.stripe.com/v3/"></script>
     {% endblock %}
@@ -77,8 +69,7 @@
             <div class="col-12 col-lg-4 my-auto py-1 py-lg-0">
                 <ul class="list-inline list-unstyled text-center text-lg-right my-0">
                     <li class="list-inline-item dropdown">
-                        <a class="text-black nav-link" href="#" id="user-options" data-toggle="dropdown"
-                            aria-haspopup="true" aria-expanded="false">
+                        <a class="text-black nav-link" href="#" id="user-options" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             <div class="text-center">
                                 <div class="top-iconsc">
                                     <i class="fas fa-user fa-lg"></i>
@@ -102,12 +93,9 @@
                         </div>
                     </li>
                     <li class="list-inline-item">
-                        <a class="{% if grand_total %} font-weight-bold {% endif %} nav-link"
-                            href="{% url 'view_bag' %}">
+                        <a class="{% if grand_total %} font-weight-bold {% endif %} nav-link" href="{% url 'view_bag' %}">
                             <div class="text-center">
-                                <div class="top-iconsc"><i
-                                        class="fas fa-shopping-basket fa-lg {% if grand_total %} full-bag {% endif %}"></i>
-                                </div>
+                                <div class="top-iconsc"><i class="fas fa-shopping-basket fa-lg {% if grand_total %} full-bag {% endif %}"></i></div>
                                 <p class="my-0 {% if grand_total %} full-bag {% else %} top-iconsp {% endif %}">
                                     {% if grand_total %}
                                     € {{ grand_total|floatformat:2 }}
@@ -123,140 +111,11 @@
         </div>
         <div class="row bg-white">
             <nav class="navbar navbar-expand-lg navbar-light w-100">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-nav"
-                    aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-
-                <!-- NAV_BAR AND MOBILE_NAV_BAR ARE NOW HERE SINCE HEROKU DOESN'T SEEM TO FIND THEM IN THE INCLUDE FOLDER -->
-
-                <li class="list-inline-item">
-                    <a class="nav-link d-block d-lg-none" href="#" id="mobile-search" data-toggle="dropdown"
-                        aria-haspopup="true" aria-expanded="false">
-                        <div class="text-center">
-                            <div class="top-iconsc"><i class="fas fa-search fa-lg"></i></div>
-                            <p class="my-0 top-iconsp-mobile">Search</p>
-                        </div>
-                    </a>
-                    <div class="dropdown-menu border-0 w-100 p-3 rounded-0 my-0" aria-labelledby="mobile-search">
-                        <form class="form" method="GET" action="{% url 'products' %}">
-                            <div class="input-group w-100">
-                                <input class="form-control rounded" type="text" name="q" placeholder="Search our site">
-                                <div class="input-group-append">
-                                    <button class="form-control form-control rounded" type="submit">
-                                        <span>
-                                            <i class="fas fa-search"></i>
-                                        </span>
-                                    </button>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                </li>
-                <li class="list-inline-item dropdown">
-                    <a class="nav-link d-block d-lg-none" href="#" id="user-options" data-toggle="dropdown"
-                        aria-haspopup="true" aria-expanded="false">
-                        <div class="text-center">
-                            <div class="top-iconsc"><i class="fas fa-user fa-lg"></i></div>
-                            <p class="my-0 top-iconsp-mobile">My Account</p>
-                        </div>
-                    </a>
-                    <div class="dropdown-menu border-1" aria-labelledby="user-options">
-                        {% if request.user.is_authenticated %}
-                        {% if request.user.is_superuser %}
-                        <a href="{% url 'add_product' %}" class="dropdown-item">My Products</a>
-                        {% endif %}
-                        <a href="{% url 'profile' %}" class="dropdown-item">My Profile</a>
-                        <a href="{% url 'account_logout' %}" class="dropdown-item">Logout</a>
-                        {% else %}
-                        <a href="{% url 'account_signup' %}" class="dropdown-item">Register</a>
-                        <a href="{% url 'account_login' %}" class="dropdown-item">Login</a>
-                        {% endif %}
-                    </div>
-                </li>
-                <li class="list-inline-item">
-                    <a class="{% if grand_total %}text-primary font-weight-bold{% else %}text-black{% endif %} nav-link d-block d-lg-none"
-                        href="{% url 'view_bag' %}">
-                        <div class="text-center">
-                            <div class="top-iconsc"><i
-                                    class="fas fa-shopping-basket fa-lg {% if grand_total %} full-bag {% endif %}"></i>
-                            </div>
-                            <p class="my-0 {% if grand_total %} full-bag {% else %} top-iconsp-mobile {% endif %}">
-                                {% if grand_total %}
-                                € {{ grand_total|floatformat:2 }}
-                                {% else %}
-                                € 0.00
-                                {% endif %}
-                            </p>
-                        </div>
-                    </a>
-                </li>
-                <div class="collapse navbar-collapse" id="main-nav">
-                    <ul class="navbar-nav w-auto mx-auto">
-                        <li class="nav-item mr-2">
-                            <a class="nav-link mr-4" href="{% url 'home' %}">Home</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link mr-4" href="{% url 'products' %}?category=pasta,olive_oil,tomatoes"
-                                id="pantry" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Pasta & Pantry
-                            </a>
-                            <div class="dropdown-menu border-0" aria-labelledby="pantry">
-                                <a href="{% url 'products' %}?category=pasta" class="dropdown-item">Pasta</a>
-                                <a href="{% url 'products' %}?category=olive_oil" class="dropdown-item">Olive Oil</a>
-                                <a href="{% url 'products' %}?category=tomatoes" class="dropdown-item">Tomatoes</a>
-                            </div>
-                        </li>
-
-                        <li class="nav-item dropdown">
-                            <a class="nav-link mr-4" href="{% url 'products' %}?category=deli_meats,cheese" id="deli"
-                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Deli & Dairy
-                            </a>
-
-                            <div class="dropdown-menu border-0" aria-labelledby="deli">
-                                <a href="{% url 'products' %}?category=deli_meats" class="dropdown-item">Deli Meats</a>
-                                <a href="{% url 'products' %}?category=cheese" class="dropdown-item">Cheese</a>
-                            </div>
-                        </li>
-
-                        <li class="nav-item dropdown">
-                            <a class="nav-link mr-4" href="{% url 'products' %}?category=snacks,sweets" id="snacks"
-                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Sweets & Snacks
-                            </a>
-                            <div class="dropdown-menu border-0" aria-labelledby="snacks">
-                                <a href="{% url 'products' %}?category=snacks" class="dropdown-item">Snacks</a>
-                                <a href="{% url 'products' %}?category=sweets" class="dropdown-item">Sweets</a>
-                            </div>
-                        </li>
-
-                        <li class="nav-item dropdown">
-                            <a class="nav-link mr-4" href="{% url 'products' %}?category=red_whine,white_wine"
-                                id="wines" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Drinks & Wines
-                            </a>
-                            <div class="dropdown-menu border-0" aria-labelledby="wines">
-                                <a href="{% url 'products' %}?category=red_whine" class="dropdown-item">Red Wine</a>
-                                <a href="{% url 'products' %}?category=white_wine" class="dropdown-item">White Wine</a>
-                            </div>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link mr-4" href="{% url 'products' %}?category=buffalo,starters"
-                                id="speciality" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                                Speciality
-                            </a>
-                            <div class="dropdown-menu border-0" aria-labelledby="speciality">
-                                <a href="{% url 'products' %}?category=buffalo" class="dropdown-item">Buffalo
-                                    Mozzarella</a>
-                                <a href="{% url 'products' %}?category=starters" class="dropdown-item">Starters</a>
-                            </div>
-                        </li>
-                        <li class="nav-item d-lg-none">
-                            <a class="nav-link mr-4" href="{% url 'home' %}">Contact Us</a>
-                        </li>
-                    </ul>
-                </div>
+                {% include 'mobile-top-header.html' %}
+                {% include 'main-nav.html' %}
             </nav>
         </div>
 
@@ -275,21 +134,21 @@
     </header>
 
     {% if messages %}
-    <div class="message-container">
-        {% for message in messages %}
-        {% with message.level as level %}
-        {% if level == 40 %}
-        {% include 'includes/toasts/toast_error.html' %}
-        {% elif level == 30 %}
-        {% include 'includes/toasts/toast_warning.html' %}
-        {% elif level == 25 %}
-        {% include 'includes/toasts/toast_success.html' %}
-        {% else %}
-        {% include 'includes/toasts/toast_info.html' %}
-        {% endif %}
-        {% endwith %}
-        {% endfor %}
-    </div>
+        <div class="message-container">
+            {% for message in messages %}
+                {% with message.level as level %}
+                    {% if level == 40 %}
+                        {% include 'toast_error.html' %}
+                    {% elif level == 30 %}
+                        {% include 'toast_warning.html' %}
+                    {% elif level == 25 %}
+                        {% include 'toast_success.html' %}
+                    {% else %}
+                        {% include 'toast_info.html' %}
+                    {% endif %}
+                {% endwith %}
+            {% endfor %}
+        </div>
     {% endif %}
 
     {% block page_header %}
@@ -305,15 +164,15 @@
     {% endblock %}
 
     <div class="col my-5 py-5"></div>
-
+    
     <footer class="bg-dark text-white">
         <div class="d-flex flex-wrap justify-content-around p-5">
             <div class="p-2 mb-5 mb-sm-0">
                 <h6 class="pb-3">Information</h6>
-                <p><i class="fas fa-shipping-fast mr-2"></i>Shipping Info</p>
-                <p><i class="fas fa-user-shield mr-2"></i>Privacy Policy</p>
-                <p><i class="fas fa-users mr-2"></i>Join Our Team</p>
-                <p><i class="fas fa-cheese mr-2"></i>Suggest a Product</p>
+                <p><a href="{% url 'shipping' %}"><i class="fas fa-shipping-fast mr-2"></i>Shipping Info</a></p>
+                <p><a href="{% url 'privacy' %}"><i class="fas fa-user-shield mr-2"></i>Privacy Policy</a></p>
+                <p><a href="{% url 'contactus' %}"><i class="fas fa-users mr-2"></i>Join Our Team</a></p>
+                <p><a href="{% url 'contactus' %}"><i class="fas fa-cheese mr-2"></i>Suggest a Product</a></p>
                 <p><i class="far fa-credit-card mr-2 mt-3"></i>Payment Methods</p>
                 <div class="d-flex payment-icons">
                     <i class="fab fa-cc-amex mx-2"></i>
@@ -324,9 +183,15 @@
             </div>
             <div class="p-2">
                 <h6 class="pb-3">Profile</h6>
-                <p><i class="fas fa-user mr-2"></i>My Account</p>
-                <p><i class="fas fa-sign-in-alt mr-2"></i>Login</p>
-                <p><i class="fas fa-shopping-basket mr-2"></i>My Basket</p>
+
+                {% if request.user.is_authenticated %}
+                <p><a href="{% url 'profile' %}"><i class="fas fa-user mr-2"></i>My Profile</a></p>
+                <p><a href="{% url 'account_logout' %}"><i class="fas fa-sign-in-alt mr-2"></i>Logout</a></p>
+                {% else %}
+                <p><a href="{% url 'account_signup' %}"><i class="fas fa-user mr-2"></i>Sign Up</a></p>
+                <p><a href="{% url 'account_login' %}"><i class="fas fa-sign-in-alt mr-2"></i>Login</a></p>
+                {% endif %}
+                <p><a href="{% url 'view_bag' %}"><i class="fas fa-shopping-basket mr-2"></i>My Basket</a></p>
                 <p><i class="fas fa-shopping-cart mr-2"></i>Checkout</p>
 
             </div>
@@ -353,5 +218,7 @@
         </div>
     </footer>
 
-</body>
+
+    
+  </body>
 </html>
