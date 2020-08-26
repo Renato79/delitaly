@@ -8,15 +8,15 @@
     color: #597718 !important;
 }
 
-.top-iconsc>a:link {
+.top-iconsc a:link {
     color: #90A74C !important;
 }
 
-.top-iconsc>a:hover {
+.top-iconsc a:hover {
     color: #597718 !important;
 }
 
-.top-iconsc>a:visited {
+.top-iconsc a:visited {
     color: #90A74C !important;
 }
 
@@ -46,7 +46,7 @@ i.full-bag-mob {
 }
 
 .nav-link a:link {
-    color: #90A74C !important;
+    color: #597718!important;
 }
 
 .nav-link a:hover {
@@ -54,7 +54,7 @@ i.full-bag-mob {
 }
 
 .nav-link a:visited {
-    color: #90A74C !important;
+    color: #597718 !important;
 }
 
 
