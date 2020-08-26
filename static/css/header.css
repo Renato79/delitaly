@@ -8,16 +8,8 @@
     color: #597718 !important;
 }
 
-.top-iconsc a:link {
-    color: #90A74C !important;
-}
-
-.top-iconsc a:hover {
+.top-iconsc a:link, a:visited, a:hover, a:active {
     color: #597718 !important;
-}
-
-.top-iconsc a:visited {
-    color: #90A74C !important;
 }
 
 .top-iconsp {
