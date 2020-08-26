@@ -215,7 +215,7 @@ a:hover {
 
 
     .bagcheckout-btn,
-    aa.bagcheckout-btn:target {
+    a.bagcheckout-btn:target {
         width: 185px;
         padding: 10px 25px;
         font-size: 1rem;
