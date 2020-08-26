@@ -30,6 +30,12 @@ a.nav-item:active {
     color: #597718 !important;
 }
 
+a.dropdown-item:link,
+a.dropdown-item:visited,
+a.dropdown-item:hover,
+a.dropdown-item:active {
+    color: #597718 !important;
+}
 
 .top-iconsp {
     font-size: 10px !important;
