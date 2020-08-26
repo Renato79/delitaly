@@ -17,11 +17,10 @@ a.text-link:hover {
 
 
 
-
-a.main-buttons {
+a.main-buttons:link {
     background-color: none;
     width: 40%;
-    color: #597718;
+    color: #597718 !important;
     padding: 10px 25px;
     margin: 0 20px;
     border: 1px solid #597718;
@@ -32,7 +31,7 @@ a.main-buttons {
 }
 
 a.main-buttons:visited {
-    color: #597718;
+    color: #597718 !important;
 }
 
 a.main-buttons:hover {
