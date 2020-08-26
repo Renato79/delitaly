@@ -23,17 +23,20 @@
     cursor: pointer;
 }
 
-.btn-outline-black {
+a.btn-outline-black:link,
+a.btn-outline-black:visited {
     background: none;
     color: #597718 !important;
     border: 1px solid #597718;
     border-radius: 5px !important;
+    text-decoration: none;
 }
 
-.btn-outline-black:hover,
-.btn-outline-black:active,
-.btn-outline-black:focus {
+a.btn-outline-black:hover,
+a.btn-outline-black:active,
+a.btn-outline-black:focus {
     background: #37490f;
+    text-decoration: none;
     color: white !important;
 }
 

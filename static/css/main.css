@@ -1,11 +1,4 @@
-a.text-link {
-    color: #90A74C !important;
-}
-
-a.text-link:link {
-    color: #90A74C !important;
-}
-
+a.text-link:link,
 a.text-link:visited {
     color: #90A74C !important;
 }
@@ -16,8 +9,8 @@ a.text-link:hover {
 }
 
 
-
-a.main-buttons:link {
+a.main-buttons:link,
+a.main-buttons:visited {
     background-color: none;
     width: 40%;
     color: #597718 !important;
@@ -30,18 +23,12 @@ a.main-buttons:link {
     font-size: 1rem;
 }
 
-a.main-buttons:visited {
-    color: #597718 !important;
-}
-
 a.main-buttons:hover {
     background-color: #37490f !important;
     color: #FFFFFF;
     transition: all .4s ease-in-out;
     -webkit-transition: all .4s ease-in-out;
 }
-
-
 
 
 select.border-basicgreen {
@@ -85,10 +72,11 @@ input.push:focus {
 }
 
 
-a.product-button {
+a.product-button:link,
+a.product-button:visited {
     background-color: none;
     width: 125px;
-    color: #597718;
+    color: #597718 !important;
     padding: 6px 25px;
     border: 1px solid #597718;
     border-radius: 5px;
@@ -97,14 +85,9 @@ a.product-button {
     font-size: 14px;
 }
 
-
-a.product-button:visited {
-    color: #597718;
-}
-
 a.product-button:hover {
     background-color: #37490f !important;
-    color: #FFFFFF;
+    color: #FFFFFF !important;
     transition: all .4s ease-in-out;
     -webkit-transition: all .4s ease-in-out;
 }
@@ -132,11 +115,12 @@ input.addtocart-btn:focus {
 }
 
 
-a.bag-keepshop-btn {
+a.bag-keepshop-btn:link,
+a.bag-keepshop-btn:visited {
     background-color: none;
     width: 125px;
     height: 50px;
-    color: #597718;
+    color: #597718 !important;
     padding: 10px 20px;
     border: 1px solid #597718;
     border-radius: 5px;
@@ -145,20 +129,19 @@ a.bag-keepshop-btn {
     font-size: 12px;
 }
 
-
 a.bag-keepshop-btn:hover {
     background-color: #37490f !important;
-    color: #FFFFFF;
+    color: #FFFFFF !important;
     transition: all .4s ease-in-out;
     -webkit-transition: all .4s ease-in-out;
 }
 
-.bagcheckout-btn,
+a.bagcheckout-btn:link,
+a.bagcheckout-btn:visited,
 a.bagcheckout-btn:target {
-    background-color: none;
     width: 145px;
     height: 50px;
-    color: #FFFFFF;
+    color: #FFFFFF !important;
     padding: 10px 20px;
     border: 1px solid #597718;
     border-radius: 5px;
