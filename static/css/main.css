@@ -11,7 +11,7 @@ a.text-link:hover {
 
 a.main-buttons:link,
 a.main-buttons:visited {
-    background-color: none;
+    background-color: #ffffff;
     width: 40%;
     color: #597718 !important;
     padding: 10px 25px;
@@ -74,7 +74,7 @@ input.push:focus {
 
 a.product-button:link,
 a.product-button:visited {
-    background-color: none;
+    background-color: #ffffff;
     width: 125px;
     color: #597718 !important;
     padding: 6px 25px;
@@ -117,7 +117,7 @@ input.addtocart-btn:focus {
 
 a.bag-keepshop-btn:link,
 a.bag-keepshop-btn:visited {
-    background-color: none;
+    background-color: #ffffff;
     width: 125px;
     height: 50px;
     color: #597718 !important;
