@@ -165,8 +165,6 @@ a.bagcheckout-btn:focus {
 
 
 /* Footer */
-
-/*
 footer {
     margin-top: auto !important;
     font-size: 10px;
@@ -180,7 +178,7 @@ a:hover {
     text-decoration: none !important;
     color: #FFFFFF !important;
 }
-*/
+
 
 .payment-icons {
     font-size: 16px;
@@ -226,7 +224,7 @@ a:hover {
 }
 
 
-
+/*
 @media (min-width: 992px) {
     footer {
         font-size: small !important;
@@ -244,3 +242,4 @@ a:hover {
         font-size: 24px;
     }
 }
+*/
