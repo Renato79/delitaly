@@ -26,7 +26,7 @@ a.nav-item:link,
 a.nav-item:visited,
 a.nav-item:hover,
 a.nav-item:active {
-    /*font-size: 1rem;*/
+    font-size: 1rem;
     color: #597718 !important;
 }
 
@@ -38,23 +38,23 @@ a.dropdown-item:active {
 }
 
 .top-iconsp {
-    font-size: 10px !important;
+   /* font-size: 10px !important; */
     color: #597718 !important;
 }
 
 .top-iconsp-mobile {
-    font-size: 12px !important;
+    /* font-size: 12px !important; */
     color: #597718 !important;
 }
 
 .full-bag,
 i.full-bag {
-    font-size: 20px !important;
+   /* font-size: 20px !important;*/
     color: #b4000F !important;
 }
 
 p.full-bag {
-    font-size: 10px !important;
+    /* font-size: 10px !important; */
 }
 
 .full-bag-mob,
