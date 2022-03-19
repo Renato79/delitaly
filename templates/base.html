@@ -186,10 +186,10 @@
         <div class="d-flex flex-wrap justify-content-around p-5">
             <div class="p-2 mb-5 mb-sm-0">
                 <h6 class="pb-3">Information</h6>
-                <p><a href="{% url 'shipping' %}"><i class="fas fa-shipping-fast mr-2"></i>Shipping Info</a></p>
-                <p><a href="{% url 'privacy' %}"><i class="fas fa-user-shield mr-2"></i>Privacy Policy</a></p>
-                <p><a href="{% url 'contactus' %}"><i class="fas fa-users mr-2"></i>Join Our Team</a></p>
-                <p><a href="{% url 'contactus' %}"><i class="fas fa-cheese mr-2"></i>Suggest a Product</a></p>
+                <p><a href="{% url 'shipping' %}" class="footlink"><i class="fas fa-shipping-fast mr-2"></i>Shipping Info</a></p>
+                <p><a href="{% url 'privacy' %}" class="footlink"><i class="fas fa-user-shield mr-2"></i>Privacy Policy</a></p>
+                <p><a href="{% url 'contactus' %}" class="footlink"><i class="fas fa-users mr-2"></i>Join Our Team</a></p>
+                <p><a href="{% url 'contactus' %}" class="footlink"><i class="fas fa-cheese mr-2"></i>Suggest a Product</a></p>
                 <p><i class="far fa-credit-card mr-2 mt-3"></i>Payment Methods</p>
                 <div class="d-flex payment-icons">
                     <i class="fab fa-cc-amex mx-2"></i>
@@ -202,27 +202,27 @@
                 <h6 class="pb-3">Profile</h6>
 
                 {% if request.user.is_authenticated %}
-                <p><a href="{% url 'profile' %}"><i class="fas fa-user mr-2"></i>My Profile</a></p>
-                <p><a href="{% url 'account_logout' %}"><i class="fas fa-sign-in-alt mr-2"></i>Logout</a></p>
+                <p><a href="{% url 'profile' %}" class="footlink"><i class="fas fa-user mr-2"></i>My Profile</a></p>
+                <p><a href="{% url 'account_logout' %}" class="footlink"><i class="fas fa-sign-in-alt mr-2"></i>Logout</a></p>
                 {% else %}
-                <p><a href="{% url 'account_signup' %}"><i class="fas fa-user mr-2"></i>Sign Up</a></p>
-                <p><a href="{% url 'account_login' %}"><i class="fas fa-sign-in-alt mr-2"></i>Login</a></p>
+                <p><a href="{% url 'account_signup' %}" class="footlink"><i class="fas fa-user mr-2"></i>Sign Up</a></p>
+                <p><a href="{% url 'account_login' %}" class="footlink"><i class="fas fa-sign-in-alt mr-2"></i>Login</a></p>
                 {% endif %}
-                <p><a href="{% url 'view_bag' %}"><i class="fas fa-shopping-basket mr-2"></i>My Basket</a></p>
-                <p><a href="{% url 'checkout' %}"><i class="fas fa-shopping-cart mr-2"></i>Checkout</a></p>
+                <p><a href="{% url 'view_bag' %}" class="footlink"><i class="fas fa-shopping-basket mr-2"></i>My Basket</a></p>
+                <p><a href="{% url 'checkout' %}" class="footlink"><i class="fas fa-shopping-cart mr-2"></i>Checkout</a></p>
             </div>
             <div class="p-2">
                 <h6 class="pb-3">Contact Info</h6>
                 <p><i class="fas fa-phone-alt mr-2"></i><a href="https://wa.me/3530214322357"><i
                             class="fab fa-whatsapp ml-1 mr-2"></i></a>+353 (021) 432 2357</p>
-                <p><a href="{% url 'contactus' %}"><i class="far fa-envelope mr-2"></i>info@delitaly.ie</a></p>
+                <p><a href="{% url 'contactus' %}" class="footlink"><i class="far fa-envelope mr-2"></i>info@delitaly.ie</a></p>
                 <p><i class="fas fa-map-marker-alt mr-2"></i>5 Marlboro Street</p>
                 <p><i class="fas fa-city mr-2"></i>Cork, Co. Cork</p>
                 <p><i class="far fa-flag mr-2"></i>Ireland</p>
                 <p>
-                    <a href="https://www.facebook.com/delitalyCork" class="text-white"><i
+                    <a href="https://www.facebook.com/delitalyCork" class="text-white footlink"><i
                             class="fab fa-facebook-f mr-2"></i></a>
-                    <a href="https://www.instagram.com/explore/tags/delitaly" class="text-white"><i
+                    <a href="https://www.instagram.com/explore/tags/delitaly" class="text-white footlink"><i
                             class="fab fa-instagram mr-2"></i></a>
                     Follow us
                 </p>

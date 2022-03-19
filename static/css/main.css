@@ -170,11 +170,12 @@ footer {
     font-size: 10px;
 }
 
-footer a:link,
-a:visited,
-a:active,
-a:hover {
-
+/* footer links */
+a.footlink:link,
+a.footlink:visited,
+a.footlink:active,
+a.footlink:hover {
+    font-size: 10px !important;
     text-decoration: none !important;
     color: #FFFFFF !important;
 }
@@ -230,11 +231,11 @@ a:hover {
         font-size: small !important;
     }
 
-    footer a:link,
-    a:visited,
-    a:active,
-    a:hover {
-
+    footer a.footlink:link,
+    a.footlink:visited,
+    a.footlink:active,
+    a.footlink:hover {
+        font-size: small !important;
     }
 
 
