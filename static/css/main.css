@@ -20,7 +20,7 @@ a.main-buttons:visited {
     border-radius: 5px;
     text-align: center;
     display: inline-block;
-    font-size: 1rem;
+
 }
 
 a.main-buttons:hover {
@@ -36,7 +36,7 @@ select.border-basicgreen {
 }
 
 .bag-text {
-    font-size: 12px;
+
 }
 
 /* Contact us */
@@ -48,7 +48,7 @@ h1.contact-header {
 }
 
 .envelop-sent i {
-    font-size: 56px;
+
 }
 
 
@@ -82,7 +82,7 @@ a.product-button:visited {
     border-radius: 5px;
     text-align: center;
     display: inline-block;
-    font-size: 14px;
+
 }
 
 a.product-button:hover {
@@ -95,7 +95,7 @@ a.product-button:hover {
 
 .addtocart-btn,
 input.addtocart-btn:target {
-    font-size: 14px;
+
     height: 40px;
     padding: 0px 20px;
     text-align: center;
@@ -126,7 +126,7 @@ a.bag-keepshop-btn:visited {
     border-radius: 5px;
     text-align: center;
     justify-items: center;
-    font-size: 12px;
+
 }
 
 a.bag-keepshop-btn:hover {
@@ -148,7 +148,7 @@ a.bagcheckout-btn:target {
     text-align: center;
     justify-items: center;
     background-color: #597718;
-    font-size: 12px;
+
 }
 
 a.bagcheckout-btn:hover,
@@ -167,21 +167,21 @@ a.bagcheckout-btn:focus {
 /* Footer */
 footer {
     margin-top: auto !important;
-    font-size: 10px;
+
 }
 
 footer a:link,
 a:visited,
 a:active,
 a:hover {
-    font-size: 10px !important;
+
     text-decoration: none !important;
     color: #FFFFFF !important;
 }
 
 
 .payment-icons {
-    font-size: 16px;
+
 }
 
 
@@ -192,7 +192,7 @@ a:hover {
 
 @media (min-width:576px) {
     .bag-text {
-        font-size: 16px;
+
     }
 }
 
@@ -209,7 +209,7 @@ a:hover {
     a.bag-keepshop-btn {
         width: 185px;
         padding: 10px 25px;
-        font-size: 1rem;
+
     }
 
 
@@ -217,7 +217,7 @@ a:hover {
     a.bagcheckout-btn:target {
         width: 185px;
         padding: 10px 25px;
-        font-size: 1rem;
+
     }
 
 
@@ -227,18 +227,18 @@ a:hover {
 
 @media (min-width: 992px) {
     footer {
-        font-size: small !important;
+
     }
 
     footer a:link,
     a:visited,
     a:active,
     a:hover {
-        font-size: small !important;
+
     }
 
 
     .payment-icons {
-        font-size: 24px;
+
     }
 }
