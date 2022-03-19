@@ -8,6 +8,9 @@ In this last year (2022), I successfully completed a further course in UX Design
 
 Please find further info about the projet here below.
 
+<p align="center">
+  <img width="700" height="auto" src="/media/appimg.png">
+</p>
 
 ## Technologies Used
 
@@ -99,7 +102,6 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 ## Credits
 
 ### Content
-
 - Text into the pages Policy and Shipments have been taken online and adapted to my project.
 - Almost all the product descriptions have been found online.
 - Info like prices, titles, scores have been invented.
