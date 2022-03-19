@@ -174,7 +174,7 @@ footer a:link,
 a:visited,
 a:active,
 a:hover {
-    font-size: 10px !important;
+
     text-decoration: none !important;
     color: #FFFFFF !important;
 }
@@ -234,7 +234,7 @@ a:hover {
     a:visited,
     a:active,
     a:hover {
-        font-size: small !important;
+
     }
 
 
