@@ -51,5 +51,5 @@ stripe==2.50.0
 toml==0.10.1
 urllib3==1.25.10
 wcwidth==0.2.5
-Werkzeug==1.0.1
+Werkzeug==2.2.3
 wrapt==1.12.1
